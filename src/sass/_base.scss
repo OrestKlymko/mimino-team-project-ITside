@@ -1,1 +1,90 @@
-@import './variables';
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+input:focus {
+    outline: transparent;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.list {
+    list-style: none;
+
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:active,
+.link:visited {
+    color: inherit;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:focus {
+    outline: transparent;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+@media (min-widht:414px) {
+    .container{
+        width: 414px;
+    }
+}
+
+@media (min-widht:1024px) {
+    .container {
+        width: 960px;
+    }
+}
+@media (min-widht:1280px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+body {
+    font-family: 'Montserrat'; 
+}
