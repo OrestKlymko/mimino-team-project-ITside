@@ -1,20 +1,20 @@
 // modern-normalize
 @import './common';
 //Fonts - шрифти
-@import './fonts.scss';
+@import './fonts';
 // Зміні
 @import './variables';
 // Основні
 @import './base';
 // Main page
-@import './main-page/header.scss';
-@import './main-page/hero-main.scss';
-@import './main-page/restaurant-about.scss';
-@import './main-page/restaurant-details.scss';
-@import './main-page/hotel-about.scss';
-@import './main-page/hotel-details.scss';
-@import './main-page/contacts.scss';
-@import './main-page/footer.scss';
+@import './main-page/header';
+@import './main-page/hero-main';
+@import './main-page/restaurant-about';
+@import './main-page/restaurant-details';
+@import './main-page/hotel-about';
+@import './main-page/hotel-details';
+@import './main-page/contacts';
+@import './main-page/footer';
 // hotel-page
 @import './restaurant-page/hero-rest';
 @import './restaurant-page/kitchen';
@@ -32,9 +32,9 @@
 @import './modal/book-room-modal';
 @import './modal/room-price-modal';
 // Slide show
-@import './slide/rest-page-kitchen.scss';
-@import './slide/slide-double-room-lux.scss';
-@import './slide/slide-double-room.scss';
-@import './slide/slide-main-page-hotel-details.scss';
-@import './slide/slide-main-page-rest-about.scss';
-@import './slide/slide-triple-room.scss';
+@import './slide/slide-rest-page-kitchen';
+@import './slide/slide-double-room-lux';
+@import './slide/slide-triple-room';
+@import './slide/slide-double-room';
+@import './slide/slide-main-page-hotel-details';
+@import './slide/slide-main-page-rest-about';
