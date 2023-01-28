@@ -1,0 +1,125 @@
+.footer {
+  background: var(--footer-bcg-color);
+
+  padding: 40px 0;
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding: 80px 0;
+  }
+
+  .footer-leftside {
+    display: flex;
+  }
+
+  .footer-social-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-social-list-item {
+    border: 0.5px solid var(--accent-color);
+    border-radius: 2px;
+    margin-right: 0;
+    width: 144px;
+
+    transition: background-color var(--defolt-animation);
+  }
+
+  .footer-link {
+    padding: 10px 12px;
+  }
+
+  .footer-social-list-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .footer-nav {
+    margin-right: 137px;
+  }
+}
+
+.footer > .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-logo {
+  font-family: 'Film P3';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+
+  color: var(--accent-color);
+}
+
+@media (min-width: 1024px) {
+  .footer-logo {
+    font-size: 64px;
+  }
+}
+
+.footer-nav {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: var(--accent-color);
+}
+
+@media (min-width: 1280px) {
+  .footer-nav {
+    margin-right: 200px;
+  }
+}
+
+.footer-social-list {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+
+  color: var(--accent-color);
+
+  display: flex;
+}
+
+@media (max-width: 1023.98px) {
+  .footer-social-list-item > a > span {
+    display: none;
+  }
+
+  .footer-social-list-item:not(:last-child) {
+    margin-right: 23px;
+  }
+}
+
+.footer-icon {
+  fill: var(--accent-color);
+}
+
+.footer-nav-list-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.footer-nav-list-item:last-child {
+  margin-bottom: 33px;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social-list-item:hover,
+.footer-social-list-item:focus,
+.footer-social-list-item:active {
+  background-color: var(--main-title-color);
+}
