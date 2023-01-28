@@ -96,18 +96,18 @@ button::-moz-focus-inner {
   margin: 0 auto;
 }
 
-@media (min-widht: 414px) {
+@media (min-width: 414px) {
   .container {
     width: 414px;
   }
 }
 
-@media (min-widht: 1024px) {
+@media (min-width: 1024px) {
   .container {
     width: 960px;
   }
 }
-@media (min-widht: 1280px) {
+@media (min-width: 1280px) {
   .container {
     width: 1140px;
   }
