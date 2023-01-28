@@ -18,6 +18,8 @@ p{
 }
 
 .container{
+    margin-bottom: 0;
+    margin-top: auto;
     max-width: 1110px;
     margin-right: auto;
     margin-left: auto;
@@ -25,6 +27,8 @@ p{
 
 @media screen and (max-width: 414px){
     .container {
+        margin-bottom: 0;
+        margin-top: auto;
         max-width: 414px;
         margin-right: auto;
         margin-left: auto; 
@@ -33,23 +37,29 @@ p{
 
 @media screen and (min-width: 415px) and (max-width: 1023px){
     .container{
-        /* max-width: 415px; */
+        margin-bottom: 0;
+        margin-top: auto;
+        max-width: 415px;
         margin-right: auto;
         margin-left: auto;  
     }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px){
     .container{
+        margin-bottom: 0;
+        margin-top: auto;
         max-width: 1024px;
         margin-right: auto;
-        margin-left: auto;
+        margin-left: 0;
     }
 }
 @media screen and (min-width: 1280px) {
     .container{
+        margin-bottom: 0;
+        margin-top: auto;
         max-width: 1134px;
         margin-right: auto;
-        margin-left: auto;   
+        margin-left: 0;   
     } 
 }
 .amenities{
@@ -157,6 +167,7 @@ p{
  display: block;
 }
 
+
 .button-amenities{
     display: inline-flex;
     color: #FFFFFF;
@@ -173,7 +184,7 @@ p{
     font-size: 24px;
     line-height: 1.2; 
 
-    border-color: transparent;
+    /* border-color: transparent; */
     justify-content: center;
     align-items: center;
     letter-spacing: 0.02em;
@@ -265,6 +276,31 @@ p{
 
 .number-svg{
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: end;
+    align-items: end;
+}
+
+@media screen and (max-width: 414px){
+    .number-svg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+}
+
+@media screen and (min-width: 415px) and (max-width: 1023px){
+    .number-svg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .button-reservation{
+        
+        margin-right: 198px;
+        /* justify-content: end;
+        align-items: flex-end; */
+    }
 }
