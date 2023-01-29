@@ -12,6 +12,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: inherit;
 }
 
 input:focus {
@@ -74,8 +75,8 @@ textarea:focus {
 }
 
 button,
-input[type='submit'],
-input[type='reset'] {
+input[type="submit"],
+input[type="reset"] {
   background: none;
   color: inherit;
   border: none;
@@ -98,21 +99,22 @@ button::-moz-focus-inner {
 
 @media (min-width: 414px) {
   .container {
-    width: 414px;
+    max-width: 414px;
   }
 }
 
 @media (min-width: 1024px) {
   .container {
-    width: 960px;
+    max-width: 960px;
   }
 }
+
 @media (min-width: 1280px) {
   .container {
-    width: 1140px;
+    max-width: 1140px;
   }
 }
 
 body {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
