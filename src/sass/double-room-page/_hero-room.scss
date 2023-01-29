@@ -1,6 +1,19 @@
-:root{
-    --text-color:#F3C653;
-}
+:root {
+    --section-bcg-color: #fffdee;
+    --section-dark-bcg-color: #f0ecd6;
+    --footer-bcg-color: #0e0c07;
+    --main-title-color: #ffffff;
+    --accent-color: #f3c653;
+    --accent-dark-color: #c79002;
+    --btn-menu-title-color: #000000;
+    --transparent-btn-color: rgba(0, 0, 0, 0.4);
+    --logo-color: #494848;
+    --main-text-color: #7a7a7a;
+    --light-text-color: #b4b4b4;
+    --address-hero-color: #e5e5e5;
+    --contacts-color: #828282;
+    --defolt-animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
 ul{
     list-style: none;
@@ -20,7 +33,7 @@ p{
 .hero{
     display: flex;
     flex-direction: column;
-    max-width: 1280px;
+    // max-width: 1280px;
     height: 720px;
     padding: 48px 85px;
     margin-left: auto;
@@ -28,7 +41,7 @@ p{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(./src\images\hotel\hero-hotel\hero-hotel-mob.jpg);
+    background-image: url(/src/images/hotel/hero-hotel/hero-hotel-mob.jpg);
 }
 
 @media screen and (max-width: 413px){
@@ -44,7 +57,7 @@ p{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url(./src\images\hotel\hero-hotel\hero-hotel-mob.jpg);
+        background-image: url(/src/images/hotel/hero-hotel/hero-hotel-mob.jpg);
     }
 
     @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
@@ -60,7 +73,7 @@ p{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url(./src\images\hotel\hero-hotel\hero-hotel-mob@2x.jpg);
+        background-image: url(/src/images/hotel/hero-hotel/hero-hotel-mob@2x.jpg);
         }
     }
 }
@@ -78,7 +91,7 @@ p{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url(./src\images\hotel\hero-hotel\hero-hotel-mob.jpg);
+        background-image: url(/src/images/hotel/hero-hotel/hero-hotel-mob.jpg);
     }
 
     @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
@@ -94,7 +107,7 @@ p{
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-image: url(./src\images\hotel\hero-hotel\hero-hotel-mob@2x.jpg);
+            background-image: url(/src/images/hotel/hero-hotel/hero-hotel-mob@2x.jpg);
         }
     }
 }
@@ -104,13 +117,13 @@ p{
         flex-direction: column;
         max-width: 1280px;
         height: 720px;
-        padding: 48px 85px;
+        padding: 0 47px 22px;
         margin-left: auto;
         margin-right: auto;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url(./src\images\hotel\hero-hotel\hero-hotel-tab.jpg);
+        background-image: url(/src/images/hotel/hero-hotel/hero-hotel-tab.jpg);
     }
 
     @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
@@ -119,13 +132,13 @@ p{
             flex-direction: column;
             max-width: 1280px;
             height: 720px;
-            padding: 48px 85px;
+            padding: 0 47px 22px;
             margin-left: auto;
             margin-right: auto;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-image: url(./src\images\hotel\hero-hotel\hero-hotel-tab@2x.jpg);
+            background-image: url(/src/images/hotel/hero-hotel/hero-hotel-tab@2x.jpg);
         }
     }
 }
@@ -133,7 +146,7 @@ p{
     .hero{
         display: flex;
         flex-direction: column;
-        max-width: 1280px;
+        // max-width: 1280px;
         height: 720px;
         padding: 48px 85px;
         margin-left: auto;
@@ -141,14 +154,14 @@ p{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url(./src\images\hotel\hero-hotel\hero-hotel-desk.jpg);
+        background-image: url(/src/images/hotel/hero-hotel/hero-hotel-desk.jpg);
     }
 
     @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
         .hero{
             display: flex;
             flex-direction: column;
-            max-width: 1280px;
+            // max-width: 1280px;
             height: 720px;
             padding: 48px 85px;
             margin-left: auto;
@@ -156,7 +169,7 @@ p{
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-image: url(./src\images\hotel\hero-hotel\hero-hotel-desk@2x.jpg);
+            background-image: url(/src/images/hotel/hero-hotel/hero-hotel-desk@2x.jpg);
         }
     }
 }
@@ -167,6 +180,8 @@ p{
     max-width: 1110px;
     margin-right: auto;
     margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 @media screen and (max-width: 414px){
@@ -175,7 +190,9 @@ p{
         margin-top: auto;
         max-width: 414px;
         margin-right: auto;
-        margin-left: auto; 
+        margin-left: auto;
+        padding-left: 0;
+        padding-right: 0; 
     }  
 }
 
@@ -185,7 +202,9 @@ p{
         margin-top: auto;
         max-width: 415px;
         margin-right: auto;
-        margin-left: auto;  
+        margin-left: auto;
+        padding-left: 0;
+        padding-right: 0;  
     }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px){
@@ -195,6 +214,8 @@ p{
         max-width: 1024px;
         margin-right: auto;
         margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 @media screen and (min-width: 1280px) {
@@ -203,7 +224,9 @@ p{
         margin-top: auto;
         max-width: 1134px;
         margin-right: auto;
-        margin-left: 0;   
+        margin-left: 0; 
+        padding-left: 0;
+        padding-right: 0;  
     } 
 }
 
@@ -215,14 +238,12 @@ p{
 @media screen and (max-width: 414px){
     .hero .container{
         display: block;
-       
        }
 }
 
 @media screen and (min-width: 415px) and (max-width: 1023px){
     .hero .container{
         display: block;
-        
        }
 }
 
@@ -237,39 +258,39 @@ p{
 }
 
 .hero-title{
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.05em;
     margin-bottom: 24px;
-    color: #FFFFFF;
+    color: var(--main-title-color);
 }
 
 @media screen and (max-width: 414px){
     .hero-title{
-        font-family: 'Times New Roman';
+        font-family: 'Times New Roman', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 28px;
         line-height: 1.1;
         letter-spacing: 0.05em;
         margin-bottom: 24px;
-        color: #FFFFFF;
+        color: var(--main-title-color); 
     } 
 }
 
 @media screen and (min-width: 415px) and (max-width: 1023px){
     .hero-title{
-        font-family: 'Times New Roman';
+        font-family: 'Times New Roman', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 28px;
         line-height: 1.1;
         letter-spacing: 0.05em;
         margin-bottom: 24px;
-        color: #FFFFFF;
+        color: var(--main-title-color);
     }
 }
 
@@ -280,7 +301,7 @@ p{
     font-size: 16px;
     line-height: 1.3;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--main-title-color);
 
     width: 400px;
 }
@@ -293,7 +314,7 @@ p{
         font-size: 12px;
         line-height: 1.3;
         letter-spacing: 0.02em;
-        color: #FFFFFF;
+        color: var(--main-title-color);
         margin-bottom: 30px;
         max-width: 400px;
     }
@@ -307,7 +328,7 @@ p{
         font-size: 12px;
         line-height: 1.3;
         letter-spacing: 0.02em;
-        color: #FFFFFF;
+        color: var(--main-title-color);
         margin-bottom: 30px;
         max-width: 400px;
     }
@@ -315,9 +336,9 @@ p{
 
 .button-hero{
     display: inline-flex;
-    color: var(--text-color);
-    background-color: rgba(0, 0, 0, 0.4);
-    border: 2px solid #FFFFFF;
+    color: var(--accent-color);
+    background-color: var(--transparent-btn-color);
+    border: 2px solid var(--main-title-color);
     border-radius: 25px;
     padding: 14px 35px;
     
@@ -331,17 +352,18 @@ p{
     align-items: center;
     letter-spacing: 0.02em;
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color var(--defolt-animation),  border var(--defolt-animation);
 }
 .button-hero:hover,
 .button-hero:focus{
-    background-color: #FFFFFF;
-    border: 2px solid #F3C653;
+    background-color: var(--main-title-color);
+    border: 2px solid var(--accent-color);
 }
 
 @media screen and (max-width: 414px){
     .address{
-        font-family: 'Montserrat';
+        display: none;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -352,7 +374,7 @@ p{
         
         margin-top: 0;
         margin-right: 0;
-        color: #E5E5E5;
+        color: var(--address-hero-color);
 
         box-sizing: border-box;
         display: flex;
@@ -362,6 +384,11 @@ p{
         border: 1px solid rgba(243, 198, 83, 0.7);
         border-radius: 2px;
     }
+
+    .contacts .address{
+        display: none;
+    }
+
     .icon-map{
         fill: rgba(243, 198, 83, 0.7);
         margin: 8px 10px;
@@ -391,7 +418,8 @@ p{
 
 @media screen and (min-width: 415px) and (max-width: 1023px){
     .address{
-        font-family: 'Montserrat';
+        display: none;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -401,7 +429,7 @@ p{
         padding: 8px 8px 8px 0;
         margin-right: 40px;
         
-        color: #E5E5E5;
+        color: var(--address-hero-color);
 
         box-sizing: border-box;
         display: flex;
@@ -413,6 +441,11 @@ p{
         border: 1px solid rgba(243, 198, 83, 0.7);
         border-radius: 2px;
     }
+
+    .contacts .address{
+        display: none;
+    }
+
     .icon-map{
         fill: rgba(243, 198, 83, 0.7);
         margin: 8px 10px;
@@ -443,7 +476,7 @@ p{
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
     .address{
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -453,7 +486,7 @@ p{
         padding: 8px 8px 8px 0;
         margin-right: 40px;
         
-        color: #E5E5E5;
+        color: var(--address-hero-color);
 
         box-sizing: border-box;
         display: flex;
@@ -492,4 +525,16 @@ p{
     .contacts{
        display: none;
 }
+}
+
+.button-arrow-icons{
+    fill: var(--accent-color);
+    background-color:rgba(0, 0, 0, 0.65);
+    border: none;
+    
+}
+
+.button-arrow{
+    display: flex;
+    justify-content: space-between;
 }
