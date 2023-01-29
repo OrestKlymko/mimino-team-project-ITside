@@ -9,7 +9,6 @@
     flex-wrap: wrap;
     padding-top: 17px;
     padding-bottom: 87px;
-    margin-left: 0;
 }
 
 .navigator {
@@ -46,14 +45,13 @@
 }
 
 .header-adress {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     padding-top: 8px;
     padding-bottom: 9px;
     margin-left: 189px;
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
-    width: 210px;
 }
 
 .adress {
@@ -62,7 +60,17 @@
     line-height: 1.25;
     letter-spacing: 0.01em;  
     color: #E5E5E5;
-    padding-left: 13px;
+    padding-left: 8px;
+    max-width: 179px;
+}
+
+.adress-two {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.01em;
+    color: #E5E5E5;
+    padding-left: 34px;
 }
 
 .map-pin-pic {
