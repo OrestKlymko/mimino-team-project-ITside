@@ -1,0 +1,71 @@
+.hero {
+    background-image: url(../images/hotel/hero-hotel/hero-hotel-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 350px;
+}
+
+.hero-container {
+    position: relative;
+    margin-left: 0;
+}
+
+.hero-header {
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.hero-text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    width: 325px;
+}
+
+.price-button {
+    padding: 14px 35px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 109px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #F3C653;
+}
+
+.social-icons {
+    width: 20px;
+    height: 20px;
+}
+
+.container-icons {
+    display: grid;
+    position: absolute;
+    margin-top: 15px;
+    width: 22px;
+    gap: 11px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 93px;
+}
+
+.arrow-pic {
+    background: rgba(0, 0, 0, 0.65);
+    fill: #F3C653;
+}
+
