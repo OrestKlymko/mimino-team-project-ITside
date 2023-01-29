@@ -1,0 +1,101 @@
+.section-room-double {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: var(--section-bcg-color);
+}
+
+.over-logo {
+  font-family: "Times New Roman";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  color: var(--light-text-color);
+
+  margin-bottom: 8px;
+}
+
+.logo-room-double {
+  font-family: "Film P3";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: calc(43 / 40);
+  letter-spacing: 0.3em;
+  color: var(--logo-color);
+
+  margin-bottom: 32px;
+}
+
+.type-room {
+  font-family: "Times New Roman";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: calc(28 / 24);
+  letter-spacing: 0.05em;
+  color: var(--btn-menu-title-color);
+  text-transform: uppercase;
+
+  margin-bottom: 12px;
+}
+
+.about-room-double {
+  width: 258px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.main-photo-room-double {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.photo-room-double {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.slider-room-double {
+  display: flex;
+  gap: 16px;
+  position: relative;
+  right: 115px;
+}
+
+.photo-slider {
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+/* ======================
+         BUTTONS
+====================== */
+
+.selection-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-btn,
+.price-btn {
+  width: 236px;
+  height: 48px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+
+  background: var(--btn-menu-title-color);
+  border: 2px solid var(--section-bcg-color);
+  border-radius: 25px;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin: 0 auto;
+}
