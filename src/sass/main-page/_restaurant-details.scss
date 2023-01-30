@@ -12,7 +12,7 @@
 @media screen and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .hero {
+  .section.restaurant-details {
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.65),
@@ -21,10 +21,19 @@
   }
 }
 
+
+
 .container.restaurant-details {
   padding-top: 24px;
   padding-bottom: 40px;
 }
+
+@media screen and (min-width: 1024px) {
+  .container.restaurant-details {
+    padding-top: 48px;
+  }
+}
+
 .logo.restaurant-details {
   margin-bottom: 12px;
   margin-left: 140px;
@@ -72,10 +81,17 @@
 }
 
 .slide-icon{
-    margin-bottom: 32px;
     fill: var(--main-title-color);
 }
-
+.menu-navigation {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 32px;
+  gap: 34px;
+}
+.slide-btn {
+  height: 32px;
+}
 .button.restaurant-details {
   display: inline-block;
   text-align: center;
@@ -120,4 +136,14 @@ font-weight: 700;
     background: var(--main-title-color);
     border: 2px solid var(--accent-color);
     }
+
+.details-link:active,
+.details-link:visited {
+   color: var(--accent-color);
+    }
+
+
+.hidden {
+  display: none;
+}
 
