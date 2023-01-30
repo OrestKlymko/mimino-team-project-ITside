@@ -4,8 +4,24 @@
   background-color: var(--section-bcg-color);
 }
 
+@media (min-width:1024px) {
+  .section-room-double {
+    padding-top: 64px;
+    padding-bottom: 104px;
+  }
+
+}
+
+@media (min-width:1280px) {
+  .section-room-double {
+    padding-top: 72px;
+    padding-bottom: 40px;
+  }
+
+}
+
 .over-logo {
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   font-weight: 400;
   font-size: 20px;
   line-height: calc(23 / 20);
@@ -15,7 +31,7 @@
 }
 
 .logo-room-double {
-  font-family: "Film P3";
+  font-family: Film P3;
   font-weight: 700;
   font-size: 40px;
   line-height: calc(43 / 40);
@@ -26,7 +42,7 @@
 }
 
 .type-room {
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   font-weight: 700;
   font-size: 24px;
   line-height: calc(28 / 24);
@@ -56,6 +72,7 @@
   margin-bottom: 32px;
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
+  background: #DADADA;
 }
 
 .slider-room-double {
@@ -68,20 +85,30 @@
 .photo-slider {
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
+  background: #DADADA;
 }
+
+.room-double-navigation {
+  display: flex;
+}
+
+
+.arrow-btn:not(:last-child) {
+  margin-right: 32px;
+}
+
 
 /* ======================
          BUTTONS
 ====================== */
 
-.selection-btn {
+.selection-btn-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
-.about-btn,
-.price-btn {
+.selection-btn-item {
   width: 236px;
   height: 48px;
 
@@ -98,4 +125,19 @@
   padding-top: 14px;
   padding-bottom: 14px;
   margin: 0 auto;
+
+  cursor: pointer;
+  transition: transform var(--defolt-animation);
 }
+
+.selection-btn-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.selection-btn-item:hover,
+.selection-btn-item:focus {
+  background: var(--main-title-color);
+  border: 2px solid var(--accent-color);
+}
+
+
