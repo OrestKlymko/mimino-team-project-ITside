@@ -1,0 +1,415 @@
+@media (min-width:414px) {
+
+  ul{
+    margin-block-start: 0;
+    margin-block-end:0;
+    padding-inline-start: 0;
+  }
+
+
+  //Section
+  .triple-room {
+    background-color: var(--section-dark-bcg-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    overflow: hidden;
+  }
+
+
+  // First description
+
+  .triple-room-first-text {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    line-height: 1.15;
+
+    color: var(--light-text-color);
+
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+
+  }
+
+  // Logo "Mimino"
+
+  .triple-room-logo {
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.075;
+    letter-spacing: 0.3em;
+
+    color: var(--logo-color);
+
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 32px;
+  }
+
+  // ТРЬОХМІСНИЙ НОМЕР - headline
+
+  .triple-room-headline {
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+
+    color: var(--btn-menu-title-color);
+
+
+    margin-bottom: 12px;
+    white-space: nowrap;
+  }
+
+  // Description of room
+
+  .triple-room-description {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.25;
+
+    letter-spacing: 0.02em;
+
+    color: var(--main-text-color);
+
+
+
+    width: 242px;
+  }
+
+
+  //Headline + description
+
+  .triple-room-head-descr{
+    width: 302px;
+    margin-left: auto;
+    margin-bottom: 32px;
+  }
+  //All image
+  .photo-triple-room{
+    background: #DADADA;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    margin-bottom: 32px;
+  }
+
+  //Image in slider
+
+  .container-slider-photo{
+    position: relative;
+    height: 194px;
+  }
+
+
+  .triple-room-slider{
+    display: flex;
+    position: absolute;
+    right: -119px;
+  }
+
+  .photo-sink,
+  .photo-cup{
+    background: #DADADA;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+  }
+
+  .triple-room-slider-photo:not(:last-child){
+    margin-right: 16px;
+  }
+
+  //Arrows of navigation
+
+  .triple-room-navigation {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .arrow:not(:last-child){
+    margin-right: 32px;
+  }
+
+  .navigation-arrow {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    outline: none;
+    border: 0;
+    background: transparent;
+  }
+
+  //Buttons of "Детальніше" and "Переглянути ціни"
+
+  .triple-room-more,
+  .triple-room-price-button {
+
+    width: 236px;
+    height: 48px;
+
+    background: var(--btn-menu-title-color);
+    border: 2px solid var(--section-bcg-color);
+    border-radius: 25px;
+
+    color: var(--accent-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+
+    letter-spacing: 0.02em;
+
+    transition: transform var(--defolt-animation);
+
+    padding: 14px 37px;
+
+  }
+
+
+
+  .triple-room-more:hover,
+  .triple-room-more:focus{
+    background: var(--main-title-color);
+    border: 2px solid var(--accent-color);
+}
+
+  .triple-room-price-button:hover,
+  .triple-room-price-button:focus{
+    background: var(--main-title-color);
+    border: 2px solid var(--accent-color);
+  }
+
+  .triple-room-price,
+  .triple-room-more{
+    display: flex;
+    justify-content: center;
+  }
+
+  .triple-room-more{
+    margin-bottom: 16px;
+  }
+
+
+  .button-link{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .triple-room-buttons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+
+  }
+
+  .triple-room-more{
+    justify-content: flex-end;
+  }
+
+}
+
+
+
+
+
+
+@media (min-width:1024px){
+
+  .triple-room{
+    position: relative;
+    overflow: visible;
+
+    padding-top: 66px;
+    padding-bottom: 0;
+  }
+
+  // First description
+
+  .triple-room-first-text {
+    font-size: 32px;
+    line-height: 1.16;
+
+    color: var(--light-text-color);
+
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 4px;
+    padding-right: 20px;
+  }
+
+  // Logo "Mimino"
+
+  .triple-room-logo {
+    font-size: 64px;
+    line-height: 1.08;
+
+    color: var(--logo-color);
+
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 62px;
+    padding-right: 20px;
+  }
+
+  // ТРЬОХМІСНИЙ НОМЕР - headline
+
+  .triple-room-headline {
+    font-size: 30px;
+    line-height: 1.13;
+
+    color: var(--btn-menu-title-color);
+
+    margin-bottom: 16px;
+  }
+
+  // Description of room
+
+  .triple-room-description {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+
+    letter-spacing: 0.02em;
+
+    color: var(--main-text-color);
+
+    width: 400px;
+  }
+
+
+  //Headline + description
+
+  .triple-room-head-descr{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    padding-bottom: 169px;
+  }
+
+  //All image
+
+  .photo-triple-room{
+    position: absolute;
+    top:-32px;
+    left: 112px;
+  }
+
+  .triple-room-slider{
+    right: 0;
+  }
+
+  .triple-room-slider-photo:not(:last-child){
+    margin-right: 40px;
+  }
+
+  //bottom side
+
+  .triple-room-buttons{
+    position: absolute;
+    left: 47px;
+    top: 581px;
+  }
+
+
+  // Arrows
+
+
+  .triple-room-navigation{
+    padding-bottom: 40px;
+    padding-top: 32px;
+    margin-right: 340px;
+  }
+
+
+}
+
+@media (min-width:1280px){
+
+.triple-room{
+  overflow: visible;
+}
+  // First description
+
+  .triple-room-first-text {
+
+    padding-right: 95px;
+  }
+
+  // Logo "Mimino"
+
+  .triple-room-logo {
+    font-size: 64px;
+
+    margin-bottom: 72px;
+    padding-right: 95px;
+  }
+
+  // ТРЬОХМІСНИЙ НОМЕР - headline
+
+  .triple-room-headline {
+    font-size: 36px;
+    line-height: 1.14;
+
+
+    margin-bottom: 24px;
+    margin-left: auto;
+  }
+
+  // Description of room
+
+  .triple-room-description {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+
+  }
+
+  // All photo
+  .photo-triple-room{
+    left: 180px;
+  }
+
+  .triple-room-slider{
+    right: 85px;
+  }
+
+  //Headline + description
+
+  .triple-room-head-descr{
+    width: 453px;
+    padding-right: 95px;
+    padding-bottom: 188px;
+    margin-left: auto;
+    margin-right: 95px;
+    margin-bottom: 0;
+
+  }
+
+
+  .triple-room-buttons{
+    position: absolute;
+    left: 85px;
+    top: 662px;
+  }
+
+
+}  // Arrows
+
+
+.triple-room-navigation{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-right: 545px;
+}
