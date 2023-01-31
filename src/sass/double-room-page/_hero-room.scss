@@ -159,7 +159,7 @@ p{
 }
 
 .hero .container{
- display: flex;
+ display: block;
  margin: auto auto 0;
  /* flex-wrap: nowrap; */
 }
@@ -536,14 +536,14 @@ p{
 .button-arrow{
     display: flex;
     justify-content: space-between;
-    top: 365px;
-    position: absolute;
+    margin-bottom: 72px;
+    
 }
 @media screen and (max-width: 414px){
     .button-arrow{
         display: flex;
         justify-content: space-between;
-        top: 350px;
+        // top: 350px;
     }
 }
 
@@ -551,7 +551,7 @@ p{
     .button-arrow{
         display: flex;
         justify-content: space-between;
-        top: 350px;
+        // top: 350px;
     }
 }
 
@@ -559,7 +559,7 @@ p{
     .button-arrow{
         display: flex;
         justify-content: space-between;
-        margin-top: 340px;
+        // margin-top: 340px;
     }
 }
 .div-button{
@@ -570,7 +570,7 @@ p{
 .box-room{
     margin-right: auto;
     margin-top: auto;
-    margin-bottom: 48px;
+    margin-bottom: 0;
     margin-left: auto;
 }
 @media screen and (max-width: 414px){
