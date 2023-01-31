@@ -240,6 +240,13 @@
     }
 }
 
+.button-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    display: flex;
+}
+
 .reservation-room {
     margin-bottom: 16px;
 }
