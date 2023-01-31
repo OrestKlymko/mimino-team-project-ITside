@@ -88,6 +88,15 @@
     text-align: left;
 }
 
+.slides-list {
+    justify-content: center;
+    gap: 19px;
+    margin-bottom: 16px;
+    display: flex;
+}
+
+
+
 .btn {
     letter-spacing: 0.02em;
     color: var(--accent-color);
