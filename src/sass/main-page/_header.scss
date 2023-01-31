@@ -1,5 +1,4 @@
 .head {
-    position: absolute;
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%);
     width: 100%;
 }
@@ -9,6 +8,13 @@
     flex-wrap: wrap;
     padding-top: 17px;
     padding-bottom: 87px;
+}
+
+@media (min-width:1024px) and (max-width:1280px) {
+    .header-container {
+        padding-top: 25px;
+        padding-bottom: 48px;
+    }
 }
 
 .navigator {
@@ -26,6 +32,18 @@
     margin-right: 52px;
 }
 
+@media (min-width:1024px) {
+    .header-logo {
+        margin-right: 207px;
+    }
+}
+
+@media (min-width:1024px) {
+    .header-logo {
+        margin-right: 135px;
+    }
+}
+
 .header-text {
     font-weight: 500;
     font-size: 16px;
@@ -35,8 +53,29 @@
     padding-right: 6px;
 }
 
-.header-text.accent {
-    padding-left: 20px;
+@media (min-width:1024px) {
+    .header-text {
+        margin-right: 32px;
+    }
+}
+
+@media (min-width:1024px) {
+    .header-text.accent {
+        margin-left: 72px;
+    }
+}
+
+@media (max-width:1023px) {
+    .header-text.accent {
+            margin-left: 20px;
+        }
+}
+
+@media (min-width:1024px) {
+    .icon-phone {
+        margin-left: 8px;
+        margin-right: 4px;
+    }
 }
 
 .header-icon {
@@ -44,46 +83,64 @@
     height: 24px;
 }
 
-.header-adress {
-    display: inline-flex;
-    align-items: center;
-    padding-top: 8px;
-    padding-bottom: 9px;
-    margin-left: auto;
-    border: 1px solid rgba(243, 198, 83, 0.7);
-    border-radius: 2px;
-    width: 210px;
+@media (min-width:1024px) {
+    .header-icon {
+        display: flex;
+        width: 144px;
+        height: 40px;
+        align-items: center;
+        border: 1px solid rgba(243, 198, 83, 0.7);
+        border-radius: 2px;
+    }
 }
 
-.adress {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.25;
-    letter-spacing: 0.01em;  
-    color: #E5E5E5;
-    padding-left: 8px;
-    max-width: 179px;
+@media (max-width:1023px) {
+    .number-phone {
+        display: none;
+    }
 }
 
-.adress-two {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.25;
-    letter-spacing: 0.01em;
-    color: #E5E5E5;
-    padding-left: 34px;
+@media (min-width:1024px) {
+    .number-phone {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
 }
 
-.map-pin-pic {
-    margin-left: 6px;
+.phone-image {
+    fill: #F3C653;
 }
 
-.map-pin {
-    width: 20px;
-    height: 20px;
+@media (min-width:1024px) {
+    .phone-image {
+        margin-left: 8px;
+        margin-right: 4px;
+    }
 }
 
 .header-menu {
+    align-items: center;
     display: flex;
     margin-left: auto;
+}
+
+@media (max-width:1279px) {
+    .social-icons-con {
+        display: none;
+    }
+}
+
+@media (min-width:1280px) {
+    .social-icons-con {
+            display: flex;
+            gap: 24px;
+            margin-left: 141px;
+        }
+}
+
+.social-icons-item {
+    fill: #F3C653;
 }

@@ -229,11 +229,15 @@
 @media (min-width:1024px){
 
   .triple-room{
-    position: relative;
     overflow: visible;
 
     padding-top: 66px;
     padding-bottom: 0;
+  }
+
+  .triple-room .container{
+    position: relative;
+
   }
 
   // First description
@@ -304,8 +308,8 @@
 
   .photo-triple-room{
     position: absolute;
-    top:-32px;
-    left: 112px;
+    top:-90px;
+    left: 0px;
   }
 
   .triple-room-slider{
@@ -380,7 +384,7 @@
 
   // All photo
   .photo-triple-room{
-    left: 180px;
+    left: 0px;
   }
 
   .triple-room-slider{
