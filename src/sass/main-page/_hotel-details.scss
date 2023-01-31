@@ -72,7 +72,6 @@
     margin-right: auto;
     margin-left: 17px;
     
-
     @media screen and (min-width: 1024px) {
         width: 549px;
         margin-left: 150px;
@@ -84,8 +83,78 @@
     }
 }
 
-.description-hotel-text.text-description {
+.named-hotel-title .logo {
+    margin-bottom: 12px;
+    margin-left: 143px;
+    display: block;
+    color: var(--main-title-color);
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.075;
+    letter-spacing: 0.3em;
+}
+
+.description-title .title {
+    margin-bottom: 20px;
+    margin-left: 201px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+}
+
+    @media screen and (min-width: 1024px) {
+        .description-title .title {
+            text-align: left;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: 0.02em;
+            color: var(--main-title-color);
+        }
+}
+
+    @media screen and (min-width: 1280px) {
+        .description-title .title{
+            text-align: left;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: 0.02em;
+            color: #BABABA;
+        }
+}
+
+.description-hotel-text .text {
     text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #BABABA;
+}
+    @media screen and (min-width: 1024px) {
+        .description-hotel-text { 
+            text-align: left;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0.02em;
+            color: #BABABA;
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        .description-hotel-text {
+        text-align: left;
+        font-weight: 600; 
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #BABABA;
+    }
 }
 
 .slides-list {
@@ -94,8 +163,6 @@
     margin-bottom: 16px;
     display: flex;
 }
-
-
 
 .btn {
     letter-spacing: 0.02em;
