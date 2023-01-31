@@ -95,6 +95,30 @@
     letter-spacing: 0.3em;
 }
 
+@media screen and (min-width: 1024px) {
+    .named-hotel-title .logo {
+        font-family: 'Film P3';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 69px;
+        letter-spacing: 0.3em;
+        color: var(--main-title-color);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .named-hotel-title .logo {
+        font-family: 'Film P3';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 69px;
+        letter-spacing: 0.3em;
+        color: var(--main-title-color);
+    }
+}
+
 .description-title .title {
     margin-bottom: 20px;
     margin-left: 201px;
