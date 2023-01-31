@@ -428,10 +428,7 @@ p{
         padding: 0px;
         gap: 20px; 
     }
-    .contacts a{
-        display: none;
-    }
-
+    
     .contacts{
         display: flex;
         align-items: center;
@@ -494,9 +491,12 @@ p{
     }
 }
 
-
 @media screen and (min-width: 1280px) {
-    .contacts{
+    .contacts .address{
+       display: none;
+    }
+
+    .contacts .icon-list{
        display: none;
     }
 }
@@ -551,6 +551,7 @@ p{
     margin-right: auto;
     margin-top: auto;
     margin-bottom: 48px;
+    margin-left: auto;
 }
 @media screen and (max-width: 414px){
     .box-container{
