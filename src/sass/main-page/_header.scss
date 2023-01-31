@@ -1,5 +1,4 @@
 .head {
-    position: absolute;
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%);
     width: 100%;
 }
@@ -111,6 +110,16 @@
     }
 }
 
+.phone-image {
+    fill: #F3C653;
+}
+
+@media (min-width:1024px) {
+    .phone-image {
+        margin-left: 8px;
+        margin-right: 4px;
+    }
+}
 
 .header-menu {
     align-items: center;
@@ -119,15 +128,19 @@
 }
 
 @media (max-width:1279px) {
-    .container-icons {
+    .social-icons-con {
         display: none;
     }
 }
 
 @media (min-width:1280px) {
-    .container-icons {
+    .social-icons-con {
             display: flex;
             gap: 24px;
             margin-left: 141px;
         }
+}
+
+.social-icons-item {
+    fill: #F3C653;
 }
