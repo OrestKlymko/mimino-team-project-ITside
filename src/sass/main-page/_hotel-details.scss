@@ -181,13 +181,6 @@
     }
 }
 
-.slides-list {
-    justify-content: center;
-    gap: 19px;
-    margin-bottom: 16px;
-    display: flex;
-}
-
 .btn {
     letter-spacing: 0.02em;
     color: var(--accent-color);
@@ -202,42 +195,6 @@
     font-weight: 700;
     line-height: 1.25;
     display: block; 
-}
-
-@media screen and (min-width: 1024px) {
-    .btn {
-        letter-spacing: 0.02em;
-        color: var(--accent-color);
-        min-width: 236px;
-        cursor: pointer;
-        text-align: center;
-        background: rgba(0, 0, 0, .4);
-        border: 2px solid var(--main-title-color);
-        border-radius: 25px;
-        padding: 12px 22px;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 1.25;
-        display: block;    
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .btn {
-        letter-spacing: 0.02em;
-        color: var(--accent-color);
-        min-width: 236px;
-        cursor: pointer;
-        text-align: center;
-        background: rgba(0, 0, 0, .4);
-        border: 2px solid var(--main-title-color);
-        border-radius: 25px;
-        padding: 12px 22px;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 1.25;
-        display: block;
-    }
 }
 
 .button-list {
