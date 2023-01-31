@@ -1,3 +1,5 @@
+/* Section */
+
 .section.restaurant-details {
   background-color: rgba(0, 0, 0, 0.7);
   background-image: linear-gradient(to right,
@@ -6,9 +8,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 
-@media screen and (min-device-pixel-ratio: 2),
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .section.restaurant-details {
@@ -18,7 +23,6 @@
       url(../images/main-page/restaurant-details/rest-bg-mob@2x.jpg);
   }
 }
-
 @media screen and (min-width: 415px) {
   .section.restaurant-details {
     background-image: linear-gradient(to right,
@@ -27,10 +31,10 @@
       url(../images/main-page/restaurant-details/rest-bg-tab.jpg)
   }
 }
-
-@media screen and (min-width: 415px) and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 415px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 415px),
+screen and (min-resolution: 192dpi) and (min-width: 415px),
+screen and (min-resolution: 2dppx) and (min-width: 415px) {
   .section.restaurant-details {
     background-image: linear-gradient(to right,
         rgba(0, 0, 0, 0.76),
@@ -38,7 +42,6 @@
       url(../images/main-page/restaurant-details/rest-bg-tab@2x.jpg)
   }
 }
-
 @media screen and (min-width: 1025px) {
   .section.restaurant-details {
     background-image: linear-gradient(to right,
@@ -47,10 +50,10 @@
       url(../images/main-page/restaurant-details/rest-bg-desk.jpg)
   }
 }
-
-@media screen and (min-width: 1025px) and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1025px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
+screen and (min-resolution: 192dpi) and (min-width: 1025px),
+screen and (min-resolution: 2dppx) and (min-width: 1025px) {
   .section.restaurant-details {
     background-image: linear-gradient(to right,
         rgba(0, 0, 0, 0.65),
@@ -58,6 +61,8 @@
       url(../images/main-page/restaurant-details/rest-bg-desk@2x.jpg)
   }
 }
+
+/* Conatiner */
 
 .container.restaurant-details {
   padding-top: 24px;
@@ -70,10 +75,22 @@
   }
 }
 
+
+/* Main information */
+
+
 .restaurant-details-info {
   width: 259px;
   margin-left: auto;
   margin-bottom: 48px;
+}
+
+@media screen and (min-width: 1024px) {
+  .restaurant-details-info {
+    width: 610px;
+    margin-left: auto;
+    margin-bottom: 40px;
+  }
 }
 
 .logo.restaurant-details {
@@ -122,34 +139,110 @@
 
 @media screen and (min-width: 1024px) {
   .text.restaurant-details {
-    margin-bottom: 40px;
     font-size: 16px;
-    max-width: 610px;
   }
 }
 
-
+/*Menu photo*/
+.menu-photo {
+  border-radius: 2px;
+  
+}
 .rest-menu-slider {
-  margin-bottom: 16px;
-  display: flex;
-  justify-content: center;
-  gap: 19px;
+
+    display: flex;
+    position: relative;
+    margin-bottom: 16px;
+    left: 25px;
 }
 
-.slide-icon {
-  fill: var(--main-title-color);
+@media screen and (min-width: 1024px){
+  .rest-menu-slider {
+  margin-bottom: 24px;
+  position: static;
 }
+}
+
+.rest-menu-slider-photo.first{
+margin-right: 90px;
+}
+
+@media screen and (min-width: 1024px){
+  .rest-menu-slider-photo.first{
+    margin-right: 34px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+  .rest-menu-slider-photo.first{
+    margin-right: 87px;
+    }
+}
+
+.rest-menu-slider-photo.second {
+  position: absolute;
+  top: 0;
+  right: -81px;
+}
+
+@media screen and (min-width: 1024px){
+  .rest-menu-slider-photo.second {
+    position: static;
+    margin-right: 34px;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .rest-menu-slider-photo.second {
+    margin-right: 87px;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (min-width: 1024px){
+.hidden {
+  display: block;
+}
+}
+
+
+/* Navigation */
+
 
 .menu-navigation {
   display: flex;
   flex-direction: row;
+  margin-left: 25px;
   margin-bottom: 32px;
   gap: 34px;
 }
 
+
+@media screen and (min-width: 1024px){
+  .menu-navigation {
+    margin-left: 0;
+  }
+}
+
+.slide-icon{
+    fill: var(--main-title-color);
+    transition: fill var(--defolt-animation);
+}
+
+.slide-icon:hover,
+.slide-icon:focus {
+  fill: var(--accent-color);
+}
+
+
 .slide-btn {
   height: 32px;
 }
+
+/*Details*/
 
 .details-list {
   display: flex;
@@ -209,6 +302,19 @@
 }
 
 
-.hidden {
-  display: none;
+
+/* Позиціонування */
+
+@media screen and (min-width: 1024px) {
+  .container-rest-menu-inform {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 29px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+  .container-rest-menu-inform {
+  gap: 32px;
+}
 }
