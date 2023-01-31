@@ -2,6 +2,8 @@
     padding-top: 32px;
     padding-bottom: 32px;
     background-color: var( --section-bcg-color);
+    
+    
 }
 @media screen and (min-width: 1024px){
     .room-double-lux{
@@ -13,12 +15,15 @@
 @media screen and (min-width: 1280px){
     .room-double-lux{
         padding-top: 72px;
-        padding-bottom: 48px;
+        padding-bottom: 112px;
         position: relative;
         padding-left: 70px;
         padding-right: 70px;
         
     }
+}
+.lux-con-hotel{
+    position: relative;
 }
 .lux-text{
 font-family: 'Times New Roman';
@@ -115,10 +120,21 @@ margin-bottom: 188px;
 @media screen and (min-width: 1024px){
 .lux-room-photo{
     position: absolute;
-    top: -32px;
-    right: 97px;
+    top: -95px;
+   left: 465px;
+    max-width: 460px;
+    z-index: 999;
+   
     margin-bottom: 0;
 }
+}
+@media screen and (min-width: 1280px){
+    .lux-room-photo{
+        position: absolute;
+        top: -105px;
+        left: 555px;
+
+    }
 }
 .lux-first-photo{
   margin-left: auto;
@@ -168,6 +184,7 @@ margin-bottom: 188px;
         left: 336px;
     }
 }
+
 .lux-btn-item{
     margin-right: 34px;
 }
@@ -200,6 +217,7 @@ margin-bottom: 188px;
 @media screen and (min-width: 1280px){
     .lux-btn-modal{
         margin-right: 0;
+        margin-left: 326px;
     }
 }
 .lux-button{
@@ -213,10 +231,13 @@ color: var( --accent-color);
 }
 
 .lux-btn-modal-item{
+    min-width: 238px;
+    height: 48px;
     padding: 14px 64px;
     background-color: #000000;
 border-radius: 25px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+border: 2px solid var(---section-bcg-color);
 }
 .lux-btn-modal-item:hover{
     background: var(--main-title-color);
@@ -224,7 +245,7 @@ border: 2px solid var(--accent-color);
 }
 .lux-btn-modal-item:focus{
     background: var(--main-title-color);
-border: 2px solid var(--accent-color);
+    border: 2px solid  var(--accent-color);
 }
 .accent{
     padding-right: 37px;
