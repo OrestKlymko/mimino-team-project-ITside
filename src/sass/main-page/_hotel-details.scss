@@ -5,10 +5,10 @@
     padding-bottom: 40px;
 }
 
-.hotel-description>.named-hotel-title {
-    margin-left: auto;
-    margin-right: 0;
-}
+// .hotel-description>.named-hotel-title {
+//     margin-left: auto;
+//     margin-right: 0;
+// }
 
 .hotel-details {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
@@ -72,7 +72,6 @@
     margin-right: auto;
     margin-left: 17px;
     
-
     @media screen and (min-width: 1024px) {
         width: 549px;
         margin-left: 150px;
@@ -84,18 +83,103 @@
     }
 }
 
-.description-hotel-text.text-description {
+.named-hotel-title .logo {
+    margin-bottom: 12px;
+    margin-left: 143px;
+    display: block;
+    color: var(--main-title-color);
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.075;
+    letter-spacing: 0.3em;
+}
+
+@media screen and (min-width: 1024px) {
+    .named-hotel-title .logo {
+        font-family: 'Film P3';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 69px;
+        letter-spacing: 0.3em;
+        color: var(--main-title-color);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .named-hotel-title .logo {
+        font-family: 'Film P3';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 69px;
+        letter-spacing: 0.3em;
+        color: var(--main-title-color);
+    }
+}
+
+.description-title .title {
+    margin-bottom: 20px;
+    margin-left: 201px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+}
+
+    @media screen and (min-width: 1024px) {
+        .description-title .title {
+            text-align: left;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: 0.02em;
+            color: var(--main-title-color);
+        }
+}
+
+    @media screen and (min-width: 1280px) {
+        .description-title .title{
+            text-align: left;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: 0.02em;
+            color: #BABABA;
+        }
+}
+
+.description-hotel-text .text {
     text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #BABABA;
 }
+    @media screen and (min-width: 1024px) {
+        .description-hotel-text { 
+            text-align: left;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0.02em;
+            color: #BABABA;
+        }
+    }
 
-.slides-list {
-    justify-content: center;
-    gap: 19px;
-    margin-bottom: 16px;
-    display: flex;
+    @media screen and (min-width: 1280px) {
+        .description-hotel-text {
+        text-align: left;
+        font-weight: 600; 
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #BABABA;
+    }
 }
-
-
 
 .btn {
     letter-spacing: 0.02em;
@@ -103,7 +187,7 @@
     min-width: 236px;
     cursor: pointer;
     text-align: center;
-    background: var(--btn-menu-title-color);
+    background: rgba(0, 0, 0, .4);
     border: 2px solid var(--main-title-color);
     border-radius: 25px;
     padding: 12px 22px;
@@ -111,6 +195,13 @@
     font-weight: 700;
     line-height: 1.25;
     display: block; 
+}
+
+.button-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    display: flex;
 }
 
 .reservation-room {
