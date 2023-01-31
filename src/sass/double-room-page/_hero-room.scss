@@ -167,15 +167,13 @@ p{
 @media screen and (max-width: 414px){
     .hero .container{
     display: block;
-    margin: auto;
-    }
+   }
 }
 
 @media screen and (min-width: 415px) and (max-width: 1023px){
     .hero .container{
         display: block;
-        margin: auto;
-       }
+    }
 }
 
 .box-hero{
@@ -509,8 +507,6 @@ p{
         display: flex;
         align-items: center;
         margin-top: 24px;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 }
 
@@ -540,13 +536,14 @@ p{
 .button-arrow{
     display: flex;
     justify-content: space-between;
-    margin-top: 265px;
+    top: 365px;
+    position: absolute;
 }
 @media screen and (max-width: 414px){
     .button-arrow{
         display: flex;
         justify-content: space-between;
-        margin-top: 350px;
+        top: 350px;
     }
 }
 
@@ -554,7 +551,7 @@ p{
     .button-arrow{
         display: flex;
         justify-content: space-between;
-        margin-top: 350px;
+        top: 350px;
     }
 }
 
@@ -562,7 +559,7 @@ p{
     .button-arrow{
         display: flex;
         justify-content: space-between;
-        margin-top: 240px;
+        margin-top: 340px;
     }
 }
 .div-button{
