@@ -204,6 +204,18 @@
     display: block; 
 }
 
+@media screen and (min-width: 1024px) {
+    .btn {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .btn {
+        display: block;
+    }
+}
+
 .reservation-room {
     margin-bottom: 16px;
 }
