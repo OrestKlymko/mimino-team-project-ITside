@@ -14,14 +14,18 @@ p{
     margin: 0;
 }
 
+
 .amenities-triple{
+
     background-color: var(--section-bcg-color);
     padding: 48px 0;
     // max-width: 1280px;
 }
 
 @media screen and (max-width: 414px){
+
     .amenities-triple{
+
         background-color: var(--section-bcg-color);
         padding: 32px 0;
         max-width: 1280px;
@@ -29,7 +33,9 @@ p{
 }
 
 @media screen and (min-width: 415px) and (max-width: 1023px){
+
     .amenities-triple{
+
         background-color: var(--section-bcg-color);
         padding: 32px 0;
         max-width: 1280px;
@@ -37,7 +43,9 @@ p{
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
+
     .amenities-triple{
+
         background-color: var(--section-bcg-color);
         padding: 50px 0 40px;
         max-width: 1280px;
@@ -45,7 +53,9 @@ p{
 }
 
 @media screen and (min-width: 1280px) {
+
     .amenities-triple{
+
         background-color: var(--section-bcg-color);
         padding: 48px 0;
         // max-width: 1280px;
