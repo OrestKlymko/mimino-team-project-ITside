@@ -1,7 +1,7 @@
 <!-- SLIDER
 <include src="../slide-/slide-main-page-hotel-details.html"></include> -->
 <section class="hotel-details section">
-            <div class="hotel-details container">
+        <div class="hotel-details container">
                 <h2 class="visually-hidden">Hotel details</h2>
                 <div class="hotel-description">
                     <a class="named-hotel-title" href="../src/index.html">MIMIHO</a>
@@ -11,20 +11,11 @@
                         sint. Velit officia consequat duis enim velit mollit.
                     </p>
                 </div>
+            <div class="hotel-content-wrapper">    
                 <div class="swipe-slides">
-                    <!-- <picture>
-                        <source srcset="./images/main-page/hotel-details/hotel-room-slide1.jpg 1x,
-                        ./images/main-page/hotel-details/hotel-room-slide1@2x.jpg 2x" media="(min-width: 414px)"/>
-                        <source srcset="./images/main-page/hotel-details/hotel-room-slide2.jpg 1x,
-                        ./images/main-page/hotel-details/hotel-room-slide2@2x.jpg 2x" media="(min-width: 1024px)" />
-                        <source srcset="./images/main-page/hotel-details/hotel-room-slide3.jpg 1x,
-                        ./images/main-page/hotel-details/hotel-room-slide3@2x.jpg 2x" media="(min-width: 1280px)" />
-                        <img src="./images/main-page/hotel-details/hotel-room-slide3.jpg" 
-                        alt="hotel-room-bg" class="hotel-bg-room"/>
-                    </picture> -->
                     <ul class="swipe-slides-list">
                         <li class="swipe-slides-item">
-                            <picture>
+                            <picture class="hotel-room-photo">
                                 <source srcset="./images/main-page/hotel-details/hotel-room-slide1.jpg 1x,
                                 ./images/main-page/hotel-details/hotel-room-slide1@2x.jpg 2x" media="(min-width: 414px)" />
                                 <source srcset="./images/main-page/hotel-details/hotel-room-slide1.jpg 1x,
@@ -44,7 +35,7 @@
                                 <source srcset="./images/main-page/hotel-details/hotel-room-slide2.jpg 1x,
                                 ./images/main-page/hotel-details/hotel-room-slide2@2x.jpg 2x" media="(min-width: 1280px)" />
                                 <img src="./images/main-page/hotel-details/hotel-room-slide2.jpg" 
-                                alt="hotel-room-photo" class="hotel-room-photo" />
+                                alt="diner-photo" class="hotel-room-photo" />
                             </picture>
                         </li>
                         <li class="swipe-slides-item">
@@ -56,27 +47,28 @@
                                 <source srcset="./images/main-page/hotel-details/hotel-room-slide3.jpg 1x,
                                 ./images/main-page/hotel-details/hotel-room-slide3@2x.jpg 2x" media="(min-width: 1280px)" />
                                 <img src="./images/main-page/hotel-details/hotel-room-slide3.jpg" 
-                                alt="hotel-room-photo" class="hotel-room-photo" />
+                                alt="reception-photo" class="hotel-room-photo" />
                             </picture>
                         </li>
                     </ul>
+                
+                    <ul class="swipe-button-list">
+                        <li class="swipe-button-item">
+                            <button class="swipe-button" type="button">
+                                <svg class="swipe-icon" width="32" height="32">
+                                    <use href="/src/images/svg/svg-sprite.svg#arrow-left"></use>
+                                </svg>
+                            </button>
+                        </li>
+                        <li class="swipe-button-item">
+                            <button class="swipe-button" type="button">
+                                <svg class="swipe-icon" width="32" height="32">
+                                    <use href="/src/images/svg/svg-sprite.svg#arrow-right"></use>
+                                </svg>
+                            </button>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="swipe-button-list">
-                    <li class="swipe-button-item">
-                        <button class="swipe-button" type="button">
-                            <svg class="swipe-icon" width="32" height="32">
-                                <use href="/src/images/svg/svg-sprite.svg#arrow-left"></use>
-                            </svg>
-                        </button>
-                    </li>
-                    <li class="swipe-button-item">
-                        <button class="swipe-button" type="button">
-                            <svg class="swipe-icon" width="32" height="32">
-                                <use href="/src/images/svg/svg-sprite.svg#arrow-right"></use>
-                            </svg>
-                        </button>
-                    </li>
-                </ul>
                 <div class="button-list">
                         <button class="reservation-room btn" type="button" data-modal>
                         Забронювати номер
@@ -84,4 +76,5 @@
                         <a class="view-price btn" href="../src/partials/restoraunt-page/menu.html">Переглянути ціни</a>
                 </div>
             </div>
+        </div>
 </section>
