@@ -1,41 +1,43 @@
-.hotel-details {
-    max-height: 735px;
 
-    padding-top: 24px;
-    padding-bottom: 40px;
-}
 
 // .hotel-description>.named-hotel-title {
 //     margin-left: auto;
 //     margin-right: 0;
 // }
 
-.hotel-details {
+.hotel-details .section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
         url(../images/main-page/hotel-details/hotel-bg-mob.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-            url(../images/main-page/hotel-details/hotel-bg-mob@2x.jpg);
+            .hotel-details .section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+                url(../images/main-page/hotel-details/hotel-bg-mob@2x.jpg);
+        }
     }
 
     @media screen and(min-width:1024px) {
+        .hotel-details .section {
         max-width: 1024px;
         max-height: 620px;
         padding-top: 48px;
         padding-bottom: 47px;
-
+    
         background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
             url(../images/main-page/hotel-details/hotel-bg-tab.jpg);
         background-size: contain;
+        }
+    }
 
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
+            .hotel-details .section {
             background-image: linear-gradient(rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
                 url(../images/main-page/hotel-details/hotel-bg-tab@2x.jpg);
@@ -43,6 +45,7 @@
     }
 
     @media screen and (min-width: 1280px) {
+        .hotel-details .section {
         max-width: 1280px;
         max-height: 620px;
         padding-top: 48px;
@@ -51,10 +54,13 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
             url(../images/main-page/hotel-details/hotel-bg-desk.jpg);
         background-size: contain;
+        }
+    }
 
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
+            .hotel-details .section {
             background-image: linear-gradient(rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
                 url(../images/main-page/hotel-details/hotel-bg-desk@2x.jpg);
@@ -62,8 +68,15 @@
     }
 }
 
-.hotel-details {
-    background-color: var(--main-title-color);
+.hotel-details .container {
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
+    @media screen and (min-width: 1024px) {
+        .hotel-details .container {
+        padding-top: 48px;
+    }
 }
 
 .hotel-description {
@@ -83,10 +96,11 @@
     }
 }
 
-.named-hotel-title .logo {
+.named-hotel-title {
     margin-bottom: 12px;
     margin-left: 143px;
-    display: block;
+    display: inline-block;
+    direction: rtl;
     color: var(--main-title-color);
     font-family: 'Film P3';
     font-weight: 700;
@@ -96,89 +110,82 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .named-hotel-title .logo {
-        font-family: 'Film P3';
-        font-style: normal;
-        font-weight: 700;
+    .named-hotel-title {
         font-size: 64px;
-        line-height: 69px;
+        line-height: 1.078;
         letter-spacing: 0.3em;
-        color: var(--main-title-color);
     }
 }
 
-@media screen and (min-width: 1280px) {
-    .named-hotel-title .logo {
-        font-family: 'Film P3';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 64px;
-        line-height: 69px;
-        letter-spacing: 0.3em;
-        color: var(--main-title-color);
-    }
-}
-
-.description-title .title {
+.description-title {
     margin-bottom: 20px;
     margin-left: 201px;
+    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-title-color);
 }
 
     @media screen and (min-width: 1024px) {
-        .description-title .title {
-            text-align: left;
-            font-weight: 700;
+        .description-title {
+            margin-bottom: 8px;
             font-size: 24px;
-            line-height: 29px;
-            letter-spacing: 0.02em;
-            color: var(--main-title-color);
         }
 }
 
-    @media screen and (min-width: 1280px) {
-        .description-title .title{
-            text-align: left;
-            font-weight: 700;
-            font-size: 24px;
-            line-height: 29px;
-            letter-spacing: 0.02em;
-            color: var(--main-title-color);
-        }
-}
-
-.description-hotel-text .text {
+.description-hotel-text {
     text-align: left;
     font-weight: 600;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 1.25;
     letter-spacing: 0.02em;
-    color: #BABABA;
+    color: var(--light-text-color);
 }
     @media screen and (min-width: 1024px) {
         .description-hotel-text { 
-            text-align: left;
-            font-weight: 600;
+            margin-bottom: 40px;
             font-size: 16px;
-            line-height: 20px;
-            letter-spacing: 0.02em;
-            color: #BABABA;
-        }
+            max-width: 610px;
     }
+}
+
+.swipe-slides-list {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+}
+
+.swipe-icon {
+    fill: var(--main-title-color);
+}
+
+.swipe-button-list {
+    flex-direction: row;
+    gap: 34px;
+    margin-bottom: 39px;
+    display: flex;
+    margin-left: 257px;
+}
+
+    @media screen and (min-width: 1024px) {
+        .swipe-button-list {
+            margin-bottom: 47px;
+            margin-left: 615px;
+    }
+}
 
     @media screen and (min-width: 1280px) {
-        .description-hotel-text {
-        text-align: left;
-        font-weight: 600; 
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.02em;
-        color: #BABABA;
+        .swipe-button-list {
+            margin-bottom: 47.59px;
+            margin-left: 829px;
     }
+}
+
+.swipe-button {
+
 }
 
 .btn {
@@ -200,7 +207,7 @@
 .button-list {
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    // gap: 16px;
     display: flex;
 }
 
