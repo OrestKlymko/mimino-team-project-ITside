@@ -9,7 +9,7 @@
     display: none;
 }
 
-.hotel-details .section {
+.hotel-details {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
         url(../images/main-page/hotel-details/hotel-bg-mob.jpg);
     background-repeat: no-repeat;
@@ -19,14 +19,14 @@
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-            .hotel-details .section {
+            .hotel-details {
             background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
                 url(../images/main-page/hotel-details/hotel-bg-mob@2x.jpg);
         }
     }
 
     @media screen and(min-width:1024px) {
-        .hotel-details .section {
+        .hotel-details {
         max-width: 1024px;
         max-height: 620px;
         padding-top: 48px;
@@ -41,7 +41,7 @@
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            .hotel-details .section {
+            .hotel-details {
             background-image: linear-gradient(rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
                 url(../images/main-page/hotel-details/hotel-bg-tab@2x.jpg);
@@ -49,7 +49,7 @@
     }
 
     @media screen and (min-width: 1280px) {
-        .hotel-details .section {
+        .hotel-details {
         max-width: 1280px;
         max-height: 620px;
         padding-top: 48px;
@@ -64,7 +64,7 @@
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            .hotel-details .section {
+            .hotel-details {
             background-image: linear-gradient(rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
                 url(../images/main-page/hotel-details/hotel-bg-desk@2x.jpg);
