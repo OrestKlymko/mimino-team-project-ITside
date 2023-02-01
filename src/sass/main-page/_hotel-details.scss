@@ -152,6 +152,25 @@
     }
 }
 
+    @media screen and (min-width: 1024px) {
+        .hotel-content-wrapper {
+            display: flex;
+            flex-direction: row-reverse;
+            position: relative;
+            gap: 29px;
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        .hotel-content-wrapper {
+            gap: 32px;
+        }
+    }
+
+.hotel-room-photo {
+    border-radius: 2px;
+}
+
 .swipe-slides-list {
     margin-bottom: 16px;
     display: flex;
@@ -159,8 +178,11 @@
     gap: 19px;
 }
 
-.swipe-icon {
-    fill: var(--main-title-color);
+    @media screen and (min-width: 1024px) {
+        .swipe-slides-list {
+            margin-bottom: 24px;
+            position: static;
+        }
 }
 
 .swipe-button-list {
@@ -185,8 +207,18 @@
     }
 }
 
-.swipe-button {
+.swipe-icon {
+    fill: var(--main-title-color);
+    transition: fill var(--defolt-animation);
+}
 
+.swipe-icon:hover,
+.swipe-icon:focus {
+    fill: var(--accent-color);
+}
+
+.swipe-button {
+    height: 32px;
 }
 
 .button-list {
