@@ -191,6 +191,12 @@ margin-bottom: 188px;
 .lux-btn-item:last-child{
     margin-right: 0;
 }
+.lux-slide-btn:hover{
+    fill: var(--accent-color);
+}
+.lux-slide-btn:focus{
+    fill: var(--accent-color);
+}
 .lux-btn-modal{
     display: flex;
     flex-wrap: wrap;
