@@ -35,7 +35,6 @@
             url(../images/main-page/hotel-details/hotel-bg-tab.jpg);
         background-size: cover;
         }
-    }
 
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -46,6 +45,7 @@
                 url(../images/main-page/hotel-details/hotel-bg-tab@2x.jpg);
         }
     }
+}
 
     @media screen and (min-width: 1280px) {
         .hotel-details.section {
@@ -56,7 +56,6 @@
             url(../images/main-page/hotel-details/hotel-bg-desk.jpg);
         background-size: cover;
         }
-    }
 
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -67,6 +66,7 @@
                 url(../images/main-page/hotel-details/hotel-bg-desk@2x.jpg);
         }
     }
+}
 
 .hotel-details .container {
     padding-top: 24px;
@@ -181,7 +181,52 @@
         .swipe-slides-list {
             margin-bottom: 24px;
             position: static;
-        }
+    }
+}
+
+.swipe-slides-item.first {
+    margin-right: 90px;
+}
+
+    @media screen and (min-width: 1024px) {
+        .swipe-slides-item.first {
+            margin-right: 34px;
+    }
+}
+
+    @media screen and (min-width: 1280px) {
+        .swipe-slides-item.first {
+            margin-right: 87px;
+    }
+}
+
+.swipe-slides-item.second {
+    position: absolute;
+    top: 0;
+    right: -81px;
+}
+
+@media screen and (min-width: 1024px) {
+    .swipe-slides-item.second {
+        position: static;
+        margin-right: 34px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .swipe-slides-item.second {
+        margin-right: 87px;
+    }
+}
+
+.swipe-slides-item.hidden {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .swipe-slides-item.hidden {
+        display: block;
+    }
 }
 
 .swipe-button-list {
