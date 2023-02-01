@@ -1,0 +1,206 @@
+.sec-contacts {
+  padding-top: 36px;
+  padding-bottom: 32px;
+  background-color: #fffdee;
+}
+
+@media screen and (min-width: 1024px) {
+  .sec-contacts > .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .sec-contacts {
+    padding-top: 56px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sec-contacts {
+    padding-bottom: 74px;
+  }
+}
+
+.logotype {
+  margin-bottom: 12px;
+  font-family: 'Film P3';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  text-transform: lowercase;
+  color: #494848;
+}
+
+@media screen and (min-width: 1024px) {
+  .logotype {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 64px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .logotype {
+    margin-bottom: 16px;
+  }
+}
+
+.text-titel {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #7a7a7a;
+}
+
+@media screen and (min-width: 1024px) {
+  .text-titel {
+    margin-bottom: 52px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .text-titel {
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
+.item-contact {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+  .item-contact {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0;
+  }
+
+  .item-contact:first-child {
+    margin-bottom: 24px;
+  }
+}
+
+.item-contact:last-child {
+  margin-left: 124px;
+}
+
+@media screen and (min-width: 1024px) {
+  .item-contact:last-child {
+    margin-left: 0;
+    margin-top: 48px;
+  }
+}
+
+.titel-contact {
+  margin-right: 22px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #c79002;
+}
+
+.hotel-titel {
+  margin-right: 54px;
+}
+
+@media screen and (min-width: 1024px) {
+  .titel-contact {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+}
+
+.inf-contact {
+  display: flex;
+  align-items: center;
+  height: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 7px;
+  padding-right: 7px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
+
+  color: #494848;
+  background-color: #ffffff;
+  border: 0.5px solid #f3c653;
+  border-radius: 2px;
+}
+
+.icon-contact {
+  display: block;
+  fill: #c79002;
+  margin-right: 8px;
+}
+
+.hotel-contact {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.inf-contact-pin {
+  width: 100%;
+}
+
+.pin-contact {
+  max-width: 185px;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  white-space: normal;
+}
+
+@media screen and (min-width: 1024px) {
+  .inf-contact-pin {
+    width: auto;
+  }
+
+  .inf-contact-pin > .icon-contact {
+    margin-right: 10px;
+  }
+
+  .pin-contact {
+    min-width: 233px;
+  }
+}
+
+.map-location {
+  margin-top: 32px;
+  outline: 1px solid #bababa;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 1024px) {
+  .map-location {
+    margin-top: 0;
+    margin-left: auto;
+    width: 535px;
+    height: 412px;
+    align-self: end;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .map-location {
+    width: 634px;
+  }
+}

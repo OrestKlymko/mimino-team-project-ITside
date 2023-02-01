@@ -1,0 +1,335 @@
+/* Section */
+
+.section.restaurant-details {
+  background-color: rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(to right,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)), url(../images/main-page/restaurant-details/rest-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .section.restaurant-details {
+    background-image: linear-gradient(to right,
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)),
+      url(../images/main-page/restaurant-details/rest-bg-mob@2x.jpg);
+  }
+}
+@media screen and (min-width: 415px) {
+  .section.restaurant-details {
+    background-image: linear-gradient(to right,
+        rgba(0, 0, 0, 0.76),
+        rgba(0, 0, 0, 0.76)),
+      url(../images/main-page/restaurant-details/rest-bg-tab.jpg)
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 415px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 415px),
+screen and (min-resolution: 192dpi) and (min-width: 415px),
+screen and (min-resolution: 2dppx) and (min-width: 415px) {
+  .section.restaurant-details {
+    background-image: linear-gradient(to right,
+        rgba(0, 0, 0, 0.76),
+        rgba(0, 0, 0, 0.76)),
+      url(../images/main-page/restaurant-details/rest-bg-tab@2x.jpg)
+  }
+}
+@media screen and (min-width: 1025px) {
+  .section.restaurant-details {
+    background-image: linear-gradient(to right,
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)),
+      url(../images/main-page/restaurant-details/rest-bg-desk.jpg)
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1025px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
+screen and (min-resolution: 192dpi) and (min-width: 1025px),
+screen and (min-resolution: 2dppx) and (min-width: 1025px) {
+  .section.restaurant-details {
+    background-image: linear-gradient(to right,
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)),
+      url(../images/main-page/restaurant-details/rest-bg-desk@2x.jpg)
+  }
+}
+
+/* Conatiner */
+
+.container.restaurant-details {
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  .container.restaurant-details {
+    padding-top: 48px;
+  }
+}
+
+
+/* Main information */
+
+
+.restaurant-details-info {
+  width: 259px;
+  margin-left: auto;
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 1024px) {
+  .restaurant-details-info {
+    width: 610px;
+    margin-left: auto;
+    margin-bottom: 40px;
+  }
+}
+
+.logo.restaurant-details {
+  margin-bottom: 12px;
+  display: block;
+  color: var(--main-title-color);
+  font-family: 'Film P3';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.075;
+  letter-spacing: 0.3em;
+}
+
+@media screen and (min-width: 1024px) {
+  .logo.restaurant-details {
+    font-size: 64px;
+    line-height: 1.078;
+    margin-bottom: 16px;
+  }
+}
+
+.title.restaurant-details {
+  margin-bottom: 20px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+
+@media screen and (min-width: 1024px) {
+  .title.restaurant-details {
+    margin-bottom: 8px;
+    font-size: 24px;
+  }
+}
+
+.text.restaurant-details {
+  color: var(--light-text-color);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (min-width: 1024px) {
+  .text.restaurant-details {
+    font-size: 16px;
+  }
+}
+
+/*Menu photo*/
+.menu-photo {
+  border-radius: 2px;
+  
+}
+.rest-menu-slider {
+
+    display: flex;
+    position: relative;
+    margin-bottom: 16px;
+    left: 25px;
+}
+
+@media screen and (min-width: 1024px){
+  .rest-menu-slider {
+  margin-bottom: 24px;
+  position: static;
+}
+}
+
+.rest-menu-slider-photo.first{
+margin-right: 90px;
+}
+
+@media screen and (min-width: 1024px){
+  .rest-menu-slider-photo.first{
+    margin-right: 34px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+  .rest-menu-slider-photo.first{
+    margin-right: 87px;
+    }
+}
+
+.rest-menu-slider-photo.second {
+  position: absolute;
+  top: 0;
+  right: -81px;
+}
+
+@media screen and (min-width: 1024px){
+  .rest-menu-slider-photo.second {
+    position: static;
+    margin-right: 34px;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .rest-menu-slider-photo.second {
+    margin-right: 87px;
+  }
+}
+
+.rest-menu-slider-photo.hidden {
+  display: none;
+}
+
+@media screen and (min-width: 1024px){
+.rest-menu-slider-photo.hidden {
+  display: block;
+}
+}
+
+
+/* Navigation */
+
+
+.menu-navigation {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  margin-bottom: 32px;
+  gap: 34px;
+}
+
+
+@media screen and (min-width: 1024px){
+  .menu-navigation {
+    margin-left: 0;
+  }
+}
+
+.slide-icon{
+    fill: var(--main-title-color);
+    transition: fill var(--defolt-animation);
+}
+
+.slide-icon:hover,
+.slide-icon:focus {
+  fill: var(--accent-color);
+}
+
+
+.slide-btn {
+  height: 32px;
+}
+
+/*Details*/
+
+.details-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+@media screen and (min-width: 1024px){
+  .details-list {
+    top: 158px;
+    left: 0;
+    position: absolute;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .details-list {
+    left: -32px;
+  }
+}
+
+.button.restaurant-details {
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  width: 236px;
+  height: 48px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid var(--main-title-color);
+  border-radius: 25px;
+  color: var(--accent-color);
+  transition: background var(--defolt-animation), border var(--defolt-animation);
+}
+
+.button.restaurant-details:hover,
+.button.restaurant-details:focus {
+  background: var(--main-title-color);
+  border: 2px solid var(--accent-color);
+}
+
+.details-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  width: 236px;
+  height: 48px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid var(--main-title-color);
+  border-radius: 25px;
+  color: var(--accent-color);
+  transition: background var(--defolt-animation), border var(--defolt-animation);
+}
+
+.details-link:hover,
+.details-link:focus {
+  background: var(--main-title-color);
+  border: 2px solid var(--accent-color);
+}
+
+.details-link:active,
+.details-link:visited {
+  color: var(--accent-color);
+}
+
+
+
+/* Позиціонування */
+
+@media screen and (min-width: 1024px) {
+  .container-rest-menu-inform {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  gap: 29px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+  .container-rest-menu-inform {
+  gap: 32px;
+}
+}
