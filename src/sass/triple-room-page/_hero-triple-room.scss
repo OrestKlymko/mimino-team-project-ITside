@@ -29,6 +29,8 @@ p{
     background-image: url(/src/images/hotel/hotel-rooms/room-3/hotel-room-mob3.jpg)
     ;
 
+}
+
 
 @media screen and (max-width: 413px){
     .hero {
@@ -62,10 +64,12 @@ p{
         background-position: center;
         background-repeat: no-repeat;
 
+
+
         background-image: url(/src/images/hotel/hotel-rooms/room-3/hotel-room-mob3@2x.jpg);
 
         }
-    }
+
 }
 
 @media screen and (min-width: 414px) and (max-width: 1023px){
