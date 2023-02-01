@@ -188,6 +188,20 @@
 
 }
 
+.button-list {
+    flex-direction: column;
+    align-items: center;
+    // gap: 16px;
+    display: flex;
+}
+
+@media screen and (min-width: 1024px) {
+    .button-list {
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
 .btn {
     letter-spacing: 0.02em;
     color: var(--accent-color);
@@ -202,13 +216,6 @@
     font-weight: 700;
     line-height: 1.25;
     display: block; 
-}
-
-.button-list {
-    flex-direction: column;
-    align-items: center;
-    // gap: 16px;
-    display: flex;
 }
 
 .reservation-room {
