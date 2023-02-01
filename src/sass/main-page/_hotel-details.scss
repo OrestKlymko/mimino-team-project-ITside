@@ -72,13 +72,13 @@
         }
     }
 
-.hotel-details.container {
+.hotel-details .container {
     padding-top: 24px;
     padding-bottom: 40px;
 }
 
     @media screen and (min-width: 1024px) {
-        .hotel-details.container {
+        .hotel-details .container {
         padding-top: 48px;
     }
 }
