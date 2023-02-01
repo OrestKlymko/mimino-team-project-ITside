@@ -57,8 +57,7 @@
 .header-text:hover,
 .header-text:focus {
     color: #F3C653;
-    transition-duration: 250ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: var(--defolt-animation);
 }
 
 
@@ -120,16 +119,13 @@
 .header-icon:hover,
 .header-icon:focus {
     fill: #F3C653;
-    transition-duration: 250ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: var(--defolt-animation);
 }   
 
 .header-icon:hover .phone-image,
 .header-icon:focus .phone-image {
     fill: #F3C653;
-    transition-duration: 250ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
+    transition: var(--defolt-animation);
 }
 
 @media (max-width:1023px) {
@@ -191,8 +187,7 @@
 .social-icons-item:hover,
 .social-icons-item:focus {
     fill: #F3C653;
-    transition-duration: 250ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: var(--defolt-animation);
 }
 
 // .social-icons-item:hover,
