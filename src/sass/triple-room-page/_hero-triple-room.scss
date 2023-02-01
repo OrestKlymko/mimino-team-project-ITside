@@ -25,25 +25,10 @@ p{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    background-image: url(/src/images/hotel/hotel-rooms/room-3/hotel-room-mob3.jpg)
-    ;
-=======
-
-    background-image: url(/src/images/hotel/hotel-rooms/room-3/hotel-room-mob3.jpg);
->>>>>>> Stashed changes
-=======
-=======
 
     background-image: url(/src/images/hotel/hotel-rooms/room-3/hotel-room-mob3.jpg);
 }
->>>>>>> Stashed changes
 
-    background-image: url(/src/images/hotel/hotel-rooms/room-3/hotel-room-mob3.jpg);
->>>>>>> Stashed changes
-}
 
 @media screen and (max-width: 413px){
     .hero {
@@ -58,12 +43,9 @@ p{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url(/src/images/hotel/hotel-rooms/room-3/hotel-room-mob3.jpg);
-    }
+        background-image: url(/src/images/hotel/hotel-rooms/room-3/hotel-room-mob3.jpg);}}
 
     @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     .hero{
         display: flex;
         flex-direction: column;
@@ -76,43 +58,9 @@ p{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-<<<<<<< Updated upstream
         background-image: url(/src/images/hotel/hotel-rooms/room-3/hotel-room-mob3@2x.jpg);
-=======
-=======
->>>>>>> Stashed changes
-        .hero{
-            display: flex;
-            flex-direction: column;
-            position: relative;
-<<<<<<< Updated upstream
-            max-width: 1280px;
-=======
-            // max-width: 1280px;
->>>>>>> Stashed changes
-            height: 720px;
-            padding: 14px 0;
-            margin-left: auto;
-            margin-right: auto;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
-            background-image: url(/src/images/hotel/hotel-rooms/room-3/hotel-room-mob3@2x.jpg);
-
->>>>>>> Stashed changes
-        }
-<<<<<<< Updated upstream
-=======
-
-        background-image: url(/src/images/hotel/hotel-rooms/room-3/hotel-room-mob3@2x.jpg); }
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-    }
+}
+}
 }
 
 @media screen and (min-width: 414px) and (max-width: 1023px){
@@ -128,7 +76,9 @@ p{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+
         background-image: url(/src/images/hotel/hotel-rooms/room-3/hotel-room-mob3.jpg);
+
     }
 
     @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
@@ -144,7 +94,9 @@ p{
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+
             background-image: url(/src/images/hotel/hotel-rooms/room-3/hotel-room-mob3@2x.jpg);
+
         }
     }
 }
@@ -160,7 +112,9 @@ p{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+
         background-image: url(/src/images/hotel/hotel-rooms/room-3/hotel-room-tab3.jpg);
+
     }
 
     @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
@@ -175,7 +129,9 @@ p{
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+
             background-image: url(/src/images/hotel/hotel-rooms/room-3/hotel-room-tab3@2x.jpg);
+
         }
     }
 }
@@ -191,7 +147,9 @@ p{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+
         background-image: url(/src/images/hotel/hotel-rooms/room-3/hero-triple-room-desk.jpg);
+
     }
 
     @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
@@ -206,7 +164,9 @@ p{
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+
             background-image: url(/src/images/hotel/hotel-rooms/room-3/hero-triple-room-desk@2x.jpg);
+
         }
     }
 }

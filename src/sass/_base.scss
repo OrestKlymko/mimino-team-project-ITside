@@ -1,90 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
 h1,
 h2,
-h3 {
-    margin-top: 0;
-    margin-bottom: 0;
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: inherit;
 }
 
 input:focus {
-    outline: transparent;
+  outline: transparent;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 
 a {
-    margin: 0;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-.list {
-    list-style: none;
+ul {
+  list-style: none;
 
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.link {
-    text-decoration: none;
-    color: inherit;
-}
-
-.link:active,
-.link:visited {
-    color: inherit;
+ul {
+  text-decoration: none;
+  color: inherit;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 textarea {
-    resize: none;
+  resize: none;
 }
 
 textarea:focus {
-    outline: transparent;
+  outline: transparent;
+}
+
+button,
+input[type='submit'],
+input[type='reset'] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
 }
 
 .container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
-@media (min-widht:414px) {
-    .container{
-        width: 414px;
-    }
+@media (min-width: 414px) {
+  .container {
+    width: 414px;
+  }
 }
 
-@media (min-widht:1024px) {
-    .container {
-        width: 960px;
-    }
+@media (min-width: 1024px) {
+  .container {
+    width: 960px;
+  }
 }
-@media (min-widht:1280px) {
-    .container {
-        width: 1140px;
-    }
+@media (min-width: 1280px) {
+  .container {
+    width: 1140px;
+  }
 }
 
 body {
-    font-family: 'Montserrat'; 
+  font-family: 'Montserrat';
 }
