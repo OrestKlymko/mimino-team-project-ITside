@@ -9,7 +9,7 @@
     display: none;
 }
 
-.hotel-details .section {
+.hotel-details.section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
         url(../images/main-page/hotel-details/hotel-bg-mob.jpg);
     background-repeat: no-repeat;
@@ -20,14 +20,14 @@
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-            .hotel-details .section {
+            .hotel-details.section {
             background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
                 url(../images/main-page/hotel-details/hotel-bg-mob@2x.jpg);
     }
 }
 
     @media screen and(min-width:1024px) {
-        .hotel-details .section {
+        .hotel-details.section {
         max-width: 1024px;
         max-height: 620px;
         padding-top: 48px;
@@ -42,7 +42,7 @@
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            .hotel-details .section {
+            .hotel-details.section {
             background-image: linear-gradient(rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
                 url(../images/main-page/hotel-details/hotel-bg-tab@2x.jpg);
@@ -50,7 +50,7 @@
     }
 
     @media screen and (min-width: 1280px) {
-        .hotel-details .section {
+        .hotel-details.section {
         max-width: 1280px;
         max-height: 620px;
         padding-top: 48px;
@@ -65,20 +65,20 @@
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            .hotel-details .section {
+            .hotel-details.section {
             background-image: linear-gradient(rgba(0, 0, 0, 0.65),
                     rgba(0, 0, 0, 0.65)),
                 url(../images/main-page/hotel-details/hotel-bg-desk@2x.jpg);
         }
     }
 
-.hotel-details .container {
+.hotel-details.container {
     padding-top: 24px;
     padding-bottom: 40px;
 }
 
     @media screen and (min-width: 1024px) {
-        .hotel-details .container {
+        .hotel-details.container {
         padding-top: 48px;
     }
 }
@@ -140,13 +140,13 @@
 }
 
 .description-hotel-text {
-    margin-bottom: 48px;
     text-align: left;
     font-weight: 600;
     font-size: 12px;
     line-height: 1.25;
     letter-spacing: 0.02em;
     color: var(--light-text-color);
+    margin-bottom: 48px;
 }
     @media screen and (min-width: 1024px) {
         .description-hotel-text { 
