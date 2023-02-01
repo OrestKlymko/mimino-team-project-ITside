@@ -155,7 +155,6 @@
     @media screen and (min-width: 1024px) {
         .hotel-content-wrapper {
             display: flex;
-            flex-direction: row-reverse;
             position: relative;
             gap: 29px;
         }
@@ -232,6 +231,13 @@
     .button-list {
         display: flex;
         align-items: flex-end;
+        padding-top: 147px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .button-list {
+        padding-top: 159px;
     }
 }
 
