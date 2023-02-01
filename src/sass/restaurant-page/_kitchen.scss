@@ -5,6 +5,12 @@
   padding-bottom: 72px;
 }
 
+@media (max-width: 1023.98px) {
+  .kitchen-about > .container {
+    overflow: hidden;
+  }
+}
+
 @media (min-width: 1024px) {
   .kitchen-about-top {
     display: flex;
@@ -209,9 +215,12 @@
 @media (min-width: 1024px) {
   .slider-flex {
     flex-direction: row;
-    justify-content: flex-end;
 
     margin-bottom: 40px;
+  }
+
+  .kitchen-about-slider > .slider-flex {
+    justify-content: flex-end;
   }
 }
 
