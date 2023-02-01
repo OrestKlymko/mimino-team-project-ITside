@@ -109,6 +109,11 @@ button::-moz-focus-inner {
   }
 }
 
+html{
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Montserrat';
+  overflow-x: hidden;
 }
