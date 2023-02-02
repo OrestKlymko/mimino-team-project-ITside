@@ -30,14 +30,14 @@
 .restaurant-about-first-title {
   font-family: 'Times New Roman';
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.15;
   color: var(--light-text-color);
 
   margin-bottom: 12px;
 }
 
 @media (min-width: 1024px) {
-  .restaurant-about-first-title{
+  .restaurant-about-first-title {
     font-size: 32px;
 
     margin-bottom: 4px;
@@ -51,7 +51,7 @@
   font-weight: 700;
   font-size: 40px;
   direction: rtl;
-  line-height: 43px;
+  line-height: 1.07;
   letter-spacing: 0.3em;
   text-indent: -0.3em;
   color: var(--logo-color);
@@ -70,7 +70,7 @@
 .restaurant-about-first-text {
   font-weight: 600;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 1.25;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   text-align: left;
@@ -81,9 +81,9 @@
 }
 
 @media (min-width: 1024px) {
-  .restaurant-about-first-text{
+  .restaurant-about-first-text {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
 
     max-width: 439px;
     margin-bottom: 142px;
@@ -92,7 +92,7 @@
 
 @media (min-width: 1280px) {
   .restaurant-about-first-text {
-    max-width: 518px;   
+    max-width: 518px;
     margin-bottom: 162px;
   }
 }
@@ -113,7 +113,7 @@
     max-width: 400px;
 
     position: absolute;
-    bottom: -38px;
+    bottom: -15px;
     right: 97px;
     z-index: 100;
 
@@ -124,7 +124,7 @@
   .restaurant-about-first-image {
     max-width: 460px;
 
-    bottom: -40px;
+    bottom: -65px;
   }
 }
 
@@ -166,7 +166,7 @@
 }
 
 @media (min-width: 1024px) {
-  .restaurant-about-second-image{
+  .restaurant-about-second-image {
     max-width: 350px;
 
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
@@ -181,7 +181,7 @@
 .restaurant-about-second-text {
   font-weight: 600;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 1.25;
   letter-spacing: 0.02em;
   color: var(--accent-dark-color);
   width: 163px;
@@ -214,7 +214,7 @@
 
     margin-bottom: 40px;
   }
-  .restaurant-about-slider > .slider-flex-restaurant{
+  .restaurant-about-slider > .slider-flex-restaurant {
     justify-content: flex-end;
   }
 }
