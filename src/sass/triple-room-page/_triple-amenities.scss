@@ -259,6 +259,11 @@ p{
     color: var(--accent-color);
 }
 
+number-svg:hover,
+number-svg:focus{
+    color: var(--accent-color);
+}
+
 .icon-arrow{
     fill: var(--accent-dark-color);
     margin-left: 16px;

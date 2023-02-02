@@ -166,6 +166,7 @@ p{
  display: block;
  margin: auto auto 0;
  /* flex-wrap: nowrap; */
+ position: relative;
 }
 
 @media screen and (max-width: 414px){
@@ -339,13 +340,13 @@ p{
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
     .button-hero{
-    right: 85px;
+    right: 0;
     } 
 }
 
 @media screen and (min-width: 1280px) {
     .button-hero{
-    right: 85px;   
+    right: 0;   
     }
 }
 
