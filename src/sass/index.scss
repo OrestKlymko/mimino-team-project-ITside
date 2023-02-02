@@ -25,11 +25,14 @@
 @import './hotel-page/room-triple';
 @import './hotel-page/room-double';
 //double-room-page
-@import './double-room-page/amenities';
 @import './double-room-page/hero-room';
+@import './double-room-page/amenities';
+//triple-room-page
+@import './triple-room-page/hero-triple-room';
+@import './triple-room-page/triple-amenities';
 // Modal
 @import './modal/book-room-modal';
-@import './modal/book-room-modal';
+@import './modal/book-table-modal';
 @import './modal/room-price-modal';
 // Slide show
 @import './slide/slide-rest-page-kitchen';
