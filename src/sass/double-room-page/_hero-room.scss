@@ -388,7 +388,7 @@ p{
     }
 
     .icon{
-        fill: rgba(243, 198, 83, 0.7);
+        fill: rgb(199, 144, 2);
     }
 
     .icon-list{
@@ -442,7 +442,7 @@ p{
     }
 
     .icon{
-        fill: rgba(243, 198, 83, 0.7);
+        fill: rgb(199, 144, 2);
     }
 
     .icon-list{
@@ -494,7 +494,7 @@ p{
     }
 
     .icon{
-        fill: rgba(243, 198, 83, 0.7);
+        fill: rgb(199, 144, 2);
     }
 
     .icon-list{
@@ -509,6 +509,11 @@ p{
         align-items: center;
         margin-top: 24px;
     }
+}
+
+.icon:hover, 
+.icon:focus {
+    fill: rgb(243, 198, 83);
 }
 
 @media screen and (min-width: 1280px) {

@@ -392,7 +392,7 @@ p{
     }
 
     .icon{
-        fill: rgba(243, 198, 83, 0.7);
+        fill: rgb(199, 144, 2);
     }
 
     .icon-list{
@@ -411,6 +411,11 @@ p{
     /* .icon-list li:not(:last-child){
         margin-bottom: 8px;
     } */
+}
+
+.icon:hover, 
+.icon:focus {
+    fill: rgb(243, 198, 83);
 }
 
 @media screen and (min-width: 415px) and (max-width: 1023px){
