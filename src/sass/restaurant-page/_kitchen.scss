@@ -254,7 +254,7 @@
 }
 
 .kitchen-about-slider-arrow {
-  transform: fill var(--defolt-animation);
+  transition: fill var(--defolt-animation);
 }
 
 .kitchen-about-slider-arrow:hover,
