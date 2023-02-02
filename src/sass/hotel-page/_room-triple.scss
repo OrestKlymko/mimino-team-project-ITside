@@ -137,6 +137,11 @@
     padding: 0;
   }
 
+  .arrow-style:hover,
+  .arrow-style:focus{
+    fill: var(--main-title-color);
+  }
+
   .navigation-arrow {
     width: 32px;
     height: 32px;
