@@ -1,11 +1,11 @@
-<div class="overlay js-overlay-modal">
-  <div class="modal-win-room modal" data-modal>
-    <button type="button" class="room-close-btn js-modal-close">
-      <svg class="room-close-btn-icon" width="24" height="24">
-        <use href="/src/images/svg/svg-sprite.svg#icon-modal-close"></use>
-      </svg>
-    </button>
-    <h3 class="modal-title-room">ЗАБРОНЮВАТИ НОМЕР</h3>
+
+<div class="modal-win-room modal" data-modal="1">
+  <button type="button" class="room-close-btn js-modal-close">
+    <svg class="room-close-btn-icon" width="24" height="24">
+      <use href="./images/svg/svg-sprite.svg#close-btn"></use>
+    </svg>
+  </button>
+  <h3 class="modal-title-room">ЗАБРОНЮВАТИ НОМЕР</h3>
 
     <form class="modal-form-room">
       <div class="box-input-reserve">
@@ -69,3 +69,80 @@
     </form>
   </div>
 </div>
+
+<!-- модалка для бронювання столика -->
+<!-- Модальне вікно -->
+<div class="modal-win-table modal" data-modal="2">
+  <!-- Кнопка закриття -->
+  <button type="button" class="table-close-btn js-modal-close">
+    <svg class="table-close-btn-icon" width="24" height="24">
+      <use href="#"></use>
+    </svg>
+  </button>
+  <!-- Заголовок модалки -->
+  <h3 class="modal-title-table">ЗАБРОНЮВАТИ СТОЛИК</h3>
+<!-- Форма для заповнення -->
+  <form class="modal-form-table">
+    <!-- На кого бронювати столик? -->
+    <div class="box-user-name-tel">
+    <div class="box-input-reserve-table">
+      
+        <input
+        class="modal-input-table" 
+        type="text" 
+        name="user_name" 
+        autofocus minlength="3" 
+        pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+        title="Ім'я користувача має складатися з двох слів, розділених пробілом" 
+        required 
+        placeholder="Ваше ім’я">
+        <p class="descrip-input-table">На кого забронювати столик?</p>
+      </div>
+  <!-- Номер телефону -->
+      <div>
+        <input type="tel" name="user_tel" pattern="[+][0-9]{12}" title="+381231111111" required class="modal-input-table"
+          placeholder="+38 (___) ___-__-__">
+        <p class="descrip-input-table">Номер телефону</p>
+      </div>
+
+    </div>
+    
+<!-- Столик на яку кількість осіб? -->
+<div class="box-date-select">
+    <div class="box-input-reserve-table">
+      
+      <div class="box-select-table">
+        <select class="select-table" name="select" required>
+          <option  value="value1">1</option>
+  <option value="value2" selected>2</option>
+  <option value="value3">3</option>
+  <option value="value4">4</option>
+  <option value="value5">5</option>
+  <option value="value6">6</option>
+  <option value="value7">7</option>
+  <option value="value8">8</option>
+  <option value="value9">9</option>
+  <option value="value10">інша кількість</option>
+        </select>
+      </div>
+      <p class="descrip-input-table">Столик на яку кількість осіб?</p>
+    </div>
+<!--  На яку дату бронювати?-->
+    <div class="box-input-reserve-table">
+      <div>
+        <div class="box-input-date-table">
+          <input type="date" min="2023-01-01" class="modal-input-table" required />
+        </div>
+        <p class="descrip-input-table">На яку дату бронювати?</p>
+      </div>    
+    </div>
+    </div>
+
+    <button type="submit" class="table-send-btn room-send-btn">ОФОРМИТИ БРОНЮВАННЯ</button>
+  </form>
+</div>
+
+
+<div class="overlay js-overlay-modal">
+</div>
+
