@@ -62,13 +62,13 @@
     }
 }
 
-.hotel-details .container {
+.hotel-details.container {
     padding-top: 24px;
     padding-bottom: 40px;
 }
 
     @media screen and (min-width: 1024px) {
-        .hotel-details .container {
+        .hotel-details.container {
         padding-top: 48px;
     }
 }
@@ -94,7 +94,6 @@
     margin-bottom: 12px;
     margin-left: 143px;
     display: inline-block;
-    direction: rtl;
     color: var(--main-title-color);
     font-family: 'Film P3';
     font-weight: 700;
@@ -268,7 +267,7 @@
     .button-list {
         display: flex;
         align-items: flex-end;
-        padding-top: 104px;
+        padding-top: 68px;
     }
 }
 
