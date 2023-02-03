@@ -20,7 +20,7 @@ p{
     // max-width: 1280px;
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 413.98px){
     .amenities-triple{
         background-color: var(--section-bcg-color);
         padding: 32px 0;
@@ -28,7 +28,7 @@ p{
     }
 }
 
-@media screen and (min-width: 415px) and (max-width: 1023px){
+@media screen and (min-width: 415px) and (max-width: 1022.98px){
     .amenities-triple{
         background-color: var(--section-bcg-color);
         padding: 32px 0;
@@ -36,7 +36,7 @@ p{
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px){
+@media screen and (min-width: 1024px) and (max-width: 1278.98px){
     .amenities-triple{
         background-color: var(--section-bcg-color);
         padding: 50px 0 40px;
@@ -91,13 +91,13 @@ p{
     display: flex;
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 413.98px){
     .list-amenities-title{
         display: block;
     }
 }
 
-@media screen and (min-width: 415px) and (max-width: 1023px){
+@media screen and (min-width: 415px) and (max-width: 1022.98px){
     .list-amenities-title{
         display: block;
     }
@@ -136,14 +136,14 @@ p{
  justify-content: flex-end;
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 413.98px){
     .button-reservation{
         display: flex;
         justify-content: center;
        }
 }
 
-@media screen and (min-width: 415px) and (max-width: 1023px){
+@media screen and (min-width: 415px) and (max-width: 1022.98px){
     .button-reservation{
         display: flex;
         justify-content: center;
@@ -182,7 +182,7 @@ p{
     transition: background-color var(--defolt-animation),  border var(--defolt-animation), color var(--defolt-animation);
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 413.98px){
     .button-amenities{
         display: inline-flex;
         color: var(--main-title-color);
@@ -208,7 +208,7 @@ p{
     }
 }
 
-@media screen and (min-width: 415px) and (max-width: 1023px){
+@media screen and (min-width: 415px) and (max-width: 1022.98px){
     .button-amenities{
         display: inline-flex;
         color: var(--main-title-color);
@@ -254,7 +254,7 @@ p{
     transition: color var(--defolt-animation);
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 413.98px){
     .number{
         display: flex;
         font-family: 'Montserrat', sans-serif;
@@ -269,7 +269,7 @@ p{
     } 
 }
 
-@media screen and (min-width: 415px) and (max-width: 1023px){
+@media screen and (min-width: 415px) and (max-width: 1022.98px){
     .number{
         display: flex;
         font-family: 'Montserrat', sans-serif;
@@ -299,14 +299,14 @@ p{
     margin-left: 16px;
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 413.98px){
     .icon-arrow{
         fill: var(--accent-dark-color);
         margin-left: 12px;
     }  
 }
 
-@media screen and (min-width: 415px) and (max-width: 1023px){
+@media screen and (min-width: 415px) and (max-width: 1022.98px){
     .icon-arrow{
         fill: var(--accent-dark-color);
         margin-left: 12px;
@@ -319,7 +319,7 @@ p{
     align-items: end;
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 413.98px){
     .number-svg{
         display: flex;
         justify-content: center;
@@ -327,7 +327,7 @@ p{
     }  
 }
 
-@media screen and (min-width: 415px) and (max-width: 1023px){
+@media screen and (min-width: 415px) and (max-width: 1022.98px){
     .number-svg{
         display: flex;
         justify-content: center;

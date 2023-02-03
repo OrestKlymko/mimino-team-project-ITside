@@ -30,7 +30,7 @@ p{
 }
 
 
-@media screen and (max-width: 413px){
+@media screen and (max-width: 413.98px){
     hero-triple{
         display: flex;
         flex-direction: column;
@@ -66,7 +66,7 @@ p{
     }
 }
 
-@media screen and (min-width: 414px) and (max-width: 1023px){
+@media screen and (min-width: 414px) and (max-width: 1022.98px){
     .hero-triple{
         display: flex;
         flex-direction: column;
@@ -99,7 +99,7 @@ p{
         }
     }
 }
-@media screen and (min-width: 1023px) and (max-width: 1279px){
+@media screen and (min-width: 1023px) and (max-width: 1278.98px){
     .hero-triple{
         display: flex;
         flex-direction: column;
@@ -169,13 +169,13 @@ p{
  position: relative;
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 413.98px){
     .hero-triple .container{
     display: block;
    }
 }
 
-@media screen and (min-width: 415px) and (max-width: 1023px){
+@media screen and (min-width: 415px) and (max-width: 1022.98px){
     .hero-triple .container{
         display: block;
     }
@@ -190,7 +190,7 @@ p{
     margin-left: auto;
     align-items: end;
 }
-@media screen and (max-width: 414px){
+@media screen and (max-width: 413.98px){
     .box-button{
         display: flex;
         margin-left: auto;
@@ -199,7 +199,7 @@ p{
     } 
 }
 
-@media screen and (min-width: 415px) and (max-width: 1023px){
+@media screen and (min-width: 415px) and (max-width: 1022.98px){
     .box-button{
         display: flex;
         margin-left: auto;
@@ -219,7 +219,7 @@ p{
     color: var(--main-title-color);
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 413.98px){
     .hero-title{
         font-family: 'Times New Roman', sans-serif;
         font-style: normal;
@@ -232,7 +232,7 @@ p{
     } 
 }
 
-@media screen and (min-width: 415px) and (max-width: 1023px){
+@media screen and (min-width: 415px) and (max-width: 1022.98px){
     .hero-title{
         font-family: 'Times New Roman', sans-serif;
         font-style: normal;
@@ -255,7 +255,7 @@ p{
     color: var(--main-title-color);
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 413.98px){
     .hero-text{
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -269,7 +269,7 @@ p{
     }
 }
 
-@media screen and (min-width: 415px) and (max-width: 1023px){
+@media screen and (min-width: 415px) and (max-width: 1022.98px){
     .hero-text{
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -281,7 +281,7 @@ p{
         margin-bottom: 0;
     }
 }
-@media screen and (min-width: 1024px) and (max-width: 1279px){
+@media screen and (min-width: 1024px) and (max-width: 1278.98px){
     .hero-text{
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -328,17 +328,17 @@ p{
     cursor: pointer;
     transition: background-color var(--defolt-animation),  border var(--defolt-animation);
 }
-@media screen and (max-width: 414px){
+@media screen and (max-width: 413.98px){
     .button-hero{
     bottom: 40px;}
 }
 
-@media screen and (min-width: 415px) and (max-width: 1023px){
+@media screen and (min-width: 415px) and (max-width: 1022.98px){
     .button-hero{
     bottom: 40px;}
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px){
+@media screen and (min-width: 1024px) and (max-width: 1278.98px){
     .button-hero{
     right: 0;
     } 
@@ -356,7 +356,7 @@ p{
     border: 2px solid var(--accent-color);
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 413.98px){
     .address{
         display: none;
         font-family: 'Montserrat', sans-serif;
@@ -418,7 +418,7 @@ p{
     fill: rgb(243, 198, 83);
 }
 
-@media screen and (min-width: 415px) and (max-width: 1023px){
+@media screen and (min-width: 415px) and (max-width: 1022.98px){
     .address{
         display: none;
         font-family: 'Montserrat', sans-serif;
@@ -474,7 +474,7 @@ p{
     } */
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px){
+@media screen and (min-width: 1024px) and (max-width: 1278.98px){
     .address{
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -549,7 +549,7 @@ p{
     margin-bottom: 72px;
     
 }
-@media screen and (max-width: 414px){
+@media screen and (max-width: 413.98px){
     .button-arrow{
         display: flex;
         justify-content: space-between;
@@ -557,7 +557,7 @@ p{
     }
 }
 
-@media screen and (min-width: 415px) and (max-width: 1023px){
+@media screen and (min-width: 415px) and (max-width: 1022.98px){
     .button-arrow{
         display: flex;
         justify-content: space-between;
@@ -565,7 +565,7 @@ p{
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px){
+@media screen and (min-width: 1024px) and (max-width: 1278.98px){
     .button-arrow{
         display: flex;
         justify-content: space-between;
@@ -583,7 +583,7 @@ p{
     margin-bottom: 0;
     margin-left: auto;
 }
-@media screen and (max-width: 414px){
+@media screen and (max-width: 413.98px){
     .box-room{
         max-width: 415px;
         margin-left: auto;
@@ -593,7 +593,7 @@ p{
     }
 }
 
-@media screen and (min-width: 415px) and (max-width: 1023px){
+@media screen and (min-width: 415px) and (max-width: 1022.98px){
     .box-room{
         max-width: 415px;
         margin-left: auto;
@@ -603,7 +603,7 @@ p{
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px){
+@media screen and (min-width: 1024px) and (max-width: 1278.98px){
     .box-room{
     max-width: none;
     margin-bottom: 0;
