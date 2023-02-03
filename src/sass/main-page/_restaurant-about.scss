@@ -254,17 +254,17 @@
   }
 }
 
-.restaurant-about-arrows {
+.restaurant-about-slider-arrow {
   transform: fill var(--defolt-animation);
 }
 
-.restaurant-about-arrows:hover,
-.restaurant-about-arrows:focus {
+.restaurant-about-slider-arrow:hover,
+.restaurant-about-slider-arrow:focus {
   fill: var(--accent-color);
 }
 
 .restaurant-about-slider-arrow.left {
-  margin-right: 15px;
+  margin-right: 32px;
 }
 
 @media (min-width: 1024px) {
