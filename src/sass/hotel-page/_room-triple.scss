@@ -135,6 +135,12 @@
 
   .arrow-style{
     padding: 0;
+    transition: transform var(--defolt-animation);
+  }
+
+  .arrow-style:hover,
+  .arrow-style:focus{
+    fill: var(--accent-color);
   }
 
   .navigation-arrow {

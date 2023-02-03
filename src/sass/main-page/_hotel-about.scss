@@ -253,7 +253,7 @@
 }
 
 .hotel-about-slider-arrow {
-  transform: fill var(--defolt-animation);
+  transition: fill var(--defolt-animation);
 }
 
 .hotel-about-slider-arrow:hover,
