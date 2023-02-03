@@ -214,9 +214,10 @@
     margin-top: 20px;
 }
 
-.form-night-room::after {
+.form-night::after {
+
     display: inline-block;
-    content: '!!!';
+    content: "";
     width: 24px;
     height: 24px;
     position: absolute;
