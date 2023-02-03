@@ -14,30 +14,41 @@ p{
     margin: 0;
 }
 
+
 .amenities-triple{
+
     background-color: var(--section-bcg-color);
     padding: 48px 0;
     // max-width: 1280px;
 }
 
+
 @media screen and (max-width: 413.98px){
+
     .amenities-triple{
+
         background-color: var(--section-bcg-color);
         padding: 32px 0;
         max-width: 1280px;
     }
 }
 
-@media screen and (min-width: 415px) and (max-width: 1022.98px){
+
+@media screen and (min-width: 414px) and (max-width: 1023.98px){
+
     .amenities-triple{
+
         background-color: var(--section-bcg-color);
         padding: 32px 0;
         max-width: 1280px;
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1278.98px){
+
+@media screen and (min-width: 1024px) and (max-width: 1279.98px){
+
     .amenities-triple{
+
         background-color: var(--section-bcg-color);
         padding: 50px 0 40px;
         max-width: 1280px;
@@ -45,7 +56,9 @@ p{
 }
 
 @media screen and (min-width: 1280px) {
+
     .amenities-triple{
+
         background-color: var(--section-bcg-color);
         padding: 48px 0;
         // max-width: 1280px;
@@ -97,7 +110,7 @@ p{
     }
 }
 
-@media screen and (min-width: 415px) and (max-width: 1022.98px){
+@media screen and (min-width: 414px) and (max-width: 1023.98px){
     .list-amenities-title{
         display: block;
     }
@@ -143,7 +156,7 @@ p{
        }
 }
 
-@media screen and (min-width: 415px) and (max-width: 1022.98px){
+@media screen and (min-width: 414px) and (max-width: 1023.98px){
     .button-reservation{
         display: flex;
         justify-content: center;
@@ -208,7 +221,7 @@ p{
     }
 }
 
-@media screen and (min-width: 415px) and (max-width: 1022.98px){
+@media screen and (min-width: 414px) and (max-width: 1023.98px){
     .button-amenities{
         display: inline-flex;
         color: var(--main-title-color);
@@ -269,7 +282,7 @@ p{
     } 
 }
 
-@media screen and (min-width: 415px) and (max-width: 1022.98px){
+@media screen and (min-width: 414px) and (max-width: 1023.98px){
     .number{
         display: flex;
         font-family: 'Montserrat', sans-serif;
@@ -306,7 +319,7 @@ p{
     }  
 }
 
-@media screen and (min-width: 415px) and (max-width: 1022.98px){
+@media screen and (min-width: 414px) and (max-width: 1023.98px){
     .icon-arrow{
         fill: var(--accent-dark-color);
         margin-left: 12px;
@@ -327,7 +340,7 @@ p{
     }  
 }
 
-@media screen and (min-width: 415px) and (max-width: 1022.98px){
+@media screen and (min-width: 414px) and (max-width: 1023.98px){
     .number-svg{
         display: flex;
         justify-content: center;
