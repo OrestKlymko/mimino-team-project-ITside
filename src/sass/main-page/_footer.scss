@@ -118,8 +118,10 @@
   align-items: center;
 }
 
-.footer-social-list-item:hover,
-.footer-social-list-item:focus,
-.footer-social-list-item:active {
-  background-color: var(--main-title-color);
+@media (min-width: 1280px) {
+  .footer-social-list-item:hover,
+  .footer-social-list-item:focus,
+  .footer-social-list-item:active {
+    background-color: var(--main-title-color);
+  }
 }
