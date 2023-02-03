@@ -74,8 +74,10 @@
 <!-- Модальне вікно -->
 <div class="modal-win-table modal" data-modal="2">
   <!-- Кнопка закриття -->
+
   <button type="button" class="table-close-btn js-modal-close">
     <svg class="table-close-btn-icon" width="24" height="24">
+
       <use href="./images/svg/svg-sprite.svg#icon-modal-close"></use>
     </svg>
   </button>
@@ -113,8 +115,10 @@
       
       <div class="box-select-table">
         <select class="select-table" name="select" required>
-          <option  value="value1">1</option>
-  <option value="value2" selected>2</option>
+
+          <option  value="">1</option>
+  <option value="" selected>2</option>
+
   <option value="value3">3</option>
   <option value="value4">4</option>
   <option value="value5">5</option>
@@ -139,6 +143,48 @@
     </div>
 
     <button type="submit" class="table-send-btn room-send-btn">ОФОРМИТИ БРОНЮВАННЯ</button>
+  </form>
+</div>
+
+
+
+<!-- Ціни на номер готелю-->
+<div class="modal-price-table modal" data-modal="3">
+  <button data-modal-close class="button-modal js-modal-close">
+    <svg width="24" height="24" class="icon-modal-price">
+      <use href="./images/svg/svg-sprite.svg#icon-modal-close"></use>
+    </svg>
+  </button>
+  <h3 class="title-price">ЦІНИ НА НОМЕР</h3>
+  <form class="form-order">
+    <p class="title-price-room">Двомісний люкс</p>
+    <p class="category-form-price">Категорія номеру</p>
+    <div class="box-price-room">
+      <div class="form-price">
+        <div class="form-night">
+          <select class="form-night-room" name="select" required="">
+
+            <option value="" >1</option>
+            <option value="value2">2</option>
+            <option value="value3">3</option>
+            <option value="value4">4</option>
+            <option value="value5">5</option>
+            <option value="value6">6</option>
+            <option value="value7">7</option>
+          </select>
+        </div>
+        <p class="category-form-price">Кількість ночей</p>
+      </div>
+      <div class="form-price">
+
+        <input class="form-night-room" type="text" name="user_name" minlength="3" required placeholder="1000">
+
+        <p class="category-form-price-money">грн</p>
+      </div>
+    </div>
+    <button class="btn-button-price" type="submit">
+      ЗАБРОНЮВАТИ НОМЕР
+    </button>
   </form>
 </div>
 
