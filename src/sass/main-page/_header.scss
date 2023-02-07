@@ -260,3 +260,21 @@
   box-sizing: border-box;
 }
 
+/* Виправлення */
+
+.phone-image-hidden{
+  fill: var(--accent-dark-color);
+  transition: var(--defolt-animation);
+}
+
+.phone-image-hidden:hover, 
+.phone-image-hidden:focus {
+fill: var(--accent-color);
+}
+
+@media (min-width: 1024px) {
+.phone-image-hidden {
+display: none;
+}
+}
+
